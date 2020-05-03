@@ -12,4 +12,7 @@
 </div>
 
 
-## Pre
+## Preview
+<br />
+<p align="center">
+  <img src="https://github.com/ariaramin/Crypto/blob/master/previews/Screenshot.png" width
