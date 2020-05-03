@@ -15,4 +15,6 @@
 ## Preview
 <br />
 <p align="center">
-  <img src="https://github.com/ariaramin/Crypto/blob/master/previews/Screenshot.png" width
+  <img src="https://github.com/ariaramin/Crypto/blob/master/previews/Screenshot.png" width="250" /> 
+  <img src="https://github.com/ariaramin/Crypto/blob/master/previews/Screenshot2.png" width="250" />
+  <img src="https://gith
