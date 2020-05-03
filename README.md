@@ -6,4 +6,10 @@
 
   <h1 align="center">Crypto</h1>
 
-  <p a
+  <p align="center">
+    Crypto is an application that helps you to track current price of cryptocurrencies.
+  </p>
+</div>
+
+
+## Pre
