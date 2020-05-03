@@ -17,4 +17,11 @@
 <p align="center">
   <img src="https://github.com/ariaramin/Crypto/blob/master/previews/Screenshot.png" width="250" /> 
   <img src="https://github.com/ariaramin/Crypto/blob/master/previews/Screenshot2.png" width="250" />
-  <img src="https://gith
+  <img src="https://github.com/ariaramin/Crypto/blob/master/previews/Screenshot3.png" width="250" />
+</p>
+
+
+
+## Technologies and Architecture
+
+* Java
