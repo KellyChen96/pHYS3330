@@ -25,3 +25,14 @@
 ## Technologies and Architecture
 
 * Java
+* RxJava
+* Dagger Hilt
+* Data Binding
+* Room
+* Retrofit
+* MVVM Architecture
+* LiveData 
+
+
+## License
+Released under the MIT license. Se
