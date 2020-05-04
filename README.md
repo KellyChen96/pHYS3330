@@ -35,4 +35,4 @@
 
 
 ## License
-Released under the MIT license. Se
+Released under the MIT license. See <a href="https://choosealicense.com/licenses/">licenses</a> for more information.
