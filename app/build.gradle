@@ -14,4 +14,10 @@ android {
         versionCode 1
         versionName "1.0"
 
-        testInstrumentat
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            p
