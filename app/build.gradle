@@ -44,4 +44,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     // Navigation Component
-   
+    def nav_version = "2.3.5"
+    implementation("androidx.navigation:navigation-fragment:$nav_version")
+    implementation(
