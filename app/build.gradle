@@ -77,4 +77,5 @@ dependencies {
     // Room
     def room_version = "2.4.1"
     implementation "androidx.room:room-runtime:$room_version"
-    annotatio
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+    implementation "androidx.room:room-rxjava3:$room_vers
