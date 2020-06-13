@@ -15,4 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Crypto">
         <activity
-            
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <actio
