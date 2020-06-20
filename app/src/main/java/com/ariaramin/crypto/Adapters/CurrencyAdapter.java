@@ -12,4 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.ariaramin.crypto.Models.DataItem;
 import com.ariaramin.crypto.R;
-import com.ariaramin.crypto
+import com.ariaramin.crypto.databinding.CurrencyItemLayoutBinding;
+import com.ariaramin.crypto.ui.Fragments.HomeFragment;
+import com.bumptech.glide.Glide;
+import 
