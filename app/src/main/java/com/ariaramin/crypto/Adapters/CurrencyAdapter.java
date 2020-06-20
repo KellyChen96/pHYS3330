@@ -8,4 +8,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.databinding.DataBindingUtil;
 import androidx.navigation.Navigation;
-import andr
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.ariaramin.crypto.Models.DataItem;
+import com.ariaramin.crypto.R;
+import com.ariaramin.crypto
