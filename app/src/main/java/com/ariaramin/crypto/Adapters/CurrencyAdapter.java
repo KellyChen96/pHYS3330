@@ -19,4 +19,9 @@ import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
 import java.util.List;
 
-public class Cur
+public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.CurrencyViewHolder> {
+
+    List<DataItem> dataItems;
+    String TAG;
+
+   
