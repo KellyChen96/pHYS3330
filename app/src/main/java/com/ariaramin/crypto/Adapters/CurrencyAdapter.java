@@ -24,4 +24,7 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
     List<DataItem> dataItems;
     String TAG;
 
-   
+    public CurrencyAdapter(String tag, List<DataItem> dataItems) {
+        TAG = tag;
+        this.dataItems = dataItems;
+    }
