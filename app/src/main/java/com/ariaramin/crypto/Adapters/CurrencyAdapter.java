@@ -28,3 +28,8 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
         TAG = tag;
         this.dataItems = dataItems;
     }
+
+    @NonNull
+    @Override
+    public CurrencyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        Layo
