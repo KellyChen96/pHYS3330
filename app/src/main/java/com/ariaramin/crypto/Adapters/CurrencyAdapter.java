@@ -33,4 +33,6 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
     @Override
     public CurrencyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
-        CurrencyItemLayoutBinding currencyItemLayoutBinding = DataB
+        CurrencyItemLayoutBinding currencyItemLayoutBinding = DataBindingUtil.inflate(inflater, R.layout.currency_item_layout, parent, false);
+        return new CurrencyViewHolder(currencyItemLayoutBinding);
+ 
