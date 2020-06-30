@@ -39,4 +39,12 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
 
     @Override
     public void onBindViewHolder(@NonNull CurrencyViewHolder holder, int position) {
-        holder.bindData(TAG, data
+        holder.bindData(TAG, dataItems.get(position));
+    }
+
+    @Override
+    public int getItemCount() {
+        return dataItems.size();
+    }
+
+    publi
