@@ -53,4 +53,6 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
     }
 
 
-  
+    static class CurrencyViewHolder extends RecyclerView.ViewHolder {
+
+        CurrencyItemLayoutBinding currencyItemLayoutBindi
