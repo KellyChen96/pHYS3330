@@ -58,4 +58,8 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
         CurrencyItemLayoutBinding currencyItemLayoutBinding;
 
         public CurrencyViewHolder(@NonNull CurrencyItemLayoutBinding currencyItemLayoutBinding) {
-            super(currencyItemLayoutBinding
+            super(currencyItemLayoutBinding.getRoot());
+            this.currencyItemLayoutBinding = currencyItemLayoutBinding;
+        }
+
+        public void bindData(
