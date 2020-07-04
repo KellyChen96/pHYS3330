@@ -47,4 +47,10 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
         return dataItems.size();
     }
 
-    publi
+    public void updateList(List<DataItem> dataItemList) {
+        dataItems = dataItemList;
+        notifyDataSetChanged();
+    }
+
+
+  
