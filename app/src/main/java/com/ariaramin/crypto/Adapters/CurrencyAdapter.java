@@ -65,4 +65,7 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
         public void bindData(String tag, DataItem dataItem) {
             loadCoinLogo(dataItem);
             setPriceDecimal(dataItem);
-            setChange(dataIt
+            setChange(dataItem);
+            loadChart(dataItem);
+            currencyItemLayoutBinding.currencyNameTextView.setText(dataItem.getName());
+ 
