@@ -69,4 +69,6 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
             loadChart(dataItem);
             currencyItemLayoutBinding.currencyNameTextView.setText(dataItem.getName());
             currencyItemLayoutBinding.currencySymbolTextView.setText(dataItem.getSymbol());
-            currencyItemLayoutBinding.
+            currencyItemLayoutBinding.currencyCardView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v
