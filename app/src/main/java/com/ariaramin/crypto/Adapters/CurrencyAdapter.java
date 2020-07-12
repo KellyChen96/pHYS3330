@@ -80,3 +80,4 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
                             Navigation.findNavController(v).navigate(R.id.action_homeFragment_to_detailFragment, bundle);
                             break;
                         case "market":
+                            Navigation.findNavController(v).navigate(R.id.action_marketFragment_to_detailFragment, bundle);
