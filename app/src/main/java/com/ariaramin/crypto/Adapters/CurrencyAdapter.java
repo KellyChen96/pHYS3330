@@ -77,4 +77,6 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
 
                     switch (tag) {
                         case "topGainLose":
-                            Navigation.findNavControlle
+                            Navigation.findNavController(v).navigate(R.id.action_homeFragment_to_detailFragment, bundle);
+                            break;
+                        case "market":
