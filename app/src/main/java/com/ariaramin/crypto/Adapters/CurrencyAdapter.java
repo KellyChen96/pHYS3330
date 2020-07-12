@@ -75,3 +75,6 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
                     Bundle bundle = new Bundle();
                     bundle.putParcelable("Coin", dataItem);
 
+                    switch (tag) {
+                        case "topGainLose":
+                            Navigation.findNavControlle
