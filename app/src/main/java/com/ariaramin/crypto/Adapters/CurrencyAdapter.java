@@ -71,4 +71,7 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
             currencyItemLayoutBinding.currencySymbolTextView.setText(dataItem.getSymbol());
             currencyItemLayoutBinding.currencyCardView.setOnClickListener(new View.OnClickListener() {
                 @Override
-                public void onClick(View v
+                public void onClick(View v) {
+                    Bundle bundle = new Bundle();
+                    bundle.putParcelable("Coin", dataItem);
+
