@@ -95,4 +95,6 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
             Glide.with(currencyItemLayoutBinding.getRoot().getContext())
                     .load("https://s2.coinmarketcap.com/static/img/coins/64x64/" + dataItem.getId() + ".png")
                     .thumbnail(
-                           
+                            Glide.with(currencyItemLayoutBinding.getRoot().getContext())
+                                    .load(R.drawable.spinner))
+        
