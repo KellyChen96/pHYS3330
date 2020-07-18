@@ -93,4 +93,6 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
 
         private void loadCoinLogo(DataItem dataItem) {
             Glide.with(currencyItemLayoutBinding.getRoot().getContext())
-                    .load("ht
+                    .load("https://s2.coinmarketcap.com/static/img/coins/64x64/" + dataItem.getId() + ".png")
+                    .thumbnail(
+                           
