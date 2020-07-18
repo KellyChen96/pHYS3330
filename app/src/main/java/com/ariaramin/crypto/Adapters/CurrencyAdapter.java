@@ -91,4 +91,6 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
             currencyItemLayoutBinding.executePendingBindings();
         }
 
-        private void loadCoinLogo(
+        private void loadCoinLogo(DataItem dataItem) {
+            Glide.with(currencyItemLayoutBinding.getRoot().getContext())
+                    .load("ht
