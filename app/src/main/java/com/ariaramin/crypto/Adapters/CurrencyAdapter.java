@@ -86,4 +86,9 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
                             Navigation.findNavController(v).navigate(R.id.action_watchListFragment_to_detailFragment, bundle);
                             break;
                     }
-        
+                }
+            });
+            currencyItemLayoutBinding.executePendingBindings();
+        }
+
+        private void loadCoinLogo(
