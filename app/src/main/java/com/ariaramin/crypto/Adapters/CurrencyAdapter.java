@@ -97,4 +97,7 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
                     .thumbnail(
                             Glide.with(currencyItemLayoutBinding.getRoot().getContext())
                                     .load(R.drawable.spinner))
-        
+                    .into(currencyItemLayoutBinding.currencyImageView);
+        }
+
+        private void setPriceDecimal(DataItem dataItem) {
