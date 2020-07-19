@@ -101,3 +101,5 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
         }
 
         private void setPriceDecimal(DataItem dataItem) {
+            if (dataItem.getListQuote().get(0).getPrice() < 1) {
+                currencyItemLayoutBinding.currencyPriceTextView
