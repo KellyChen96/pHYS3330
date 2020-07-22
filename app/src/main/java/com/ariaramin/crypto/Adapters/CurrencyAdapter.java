@@ -106,4 +106,9 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
             } else if (dataItem.getListQuote().get(0).getPrice() < 10) {
                 currencyItemLayoutBinding.currencyPriceTextView.setText(String.format("$%.4f", dataItem.getListQuote().get(0).getPrice()));
             } else {
-                currencyItemLayoutBinding.currencyPriceTextView.setText(String.format("$%.2f", d
+                currencyItemLayoutBinding.currencyPriceTextView.setText(String.format("$%.2f", dataItem.getListQuote().get(0).getPrice()));
+            }
+        }
+
+        private void setChange(DataItem dataItem) {
+     
