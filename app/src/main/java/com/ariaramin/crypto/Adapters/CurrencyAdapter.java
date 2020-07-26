@@ -115,4 +115,4 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
                 int red = currencyItemLayoutBinding.getRoot().getContext().getResources().getColor(R.color.red);
                 currencyItemLayoutBinding.currencyChangeTextView.setTextColor(red);
                 currencyItemLayoutBinding.currencyChangeImageView.setImageResource(R.drawable.ic_caret_down);
-                curr
+                currencyItemLayoutBinding.currencyChangeTextView.setText(String.format("%.2f", dataItem.getListQuote().get(0).getPerc
