@@ -119,4 +119,5 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
             } else {
                 int green = currencyItemLayoutBinding.getRoot().getContext().getResources().getColor(R.color.green);
                 currencyItemLayoutBinding.currencyChangeTextView.setTextColor(green);
-                currencyItemLayou
+                currencyItemLayoutBinding.currencyChangeImageView.setImageResource(R.drawable.ic_caret_up);
+                cur
