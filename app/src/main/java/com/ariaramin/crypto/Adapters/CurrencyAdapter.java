@@ -120,4 +120,9 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
                 int green = currencyItemLayoutBinding.getRoot().getContext().getResources().getColor(R.color.green);
                 currencyItemLayoutBinding.currencyChangeTextView.setTextColor(green);
                 currencyItemLayoutBinding.currencyChangeImageView.setImageResource(R.drawable.ic_caret_up);
-                currencyItemLayoutBinding.currencyChangeTextView.setText(String.format("+%.2f", dataItem.getListQuote().get(0).getPercentChan
+                currencyItemLayoutBinding.currencyChangeTextView.setText(String.format("+%.2f", dataItem.getListQuote().get(0).getPercentChange24h()) + "%");
+            }
+        }
+
+        private void loadChart(DataItem dataItem) {
+            if (dataItem.getListQuo
