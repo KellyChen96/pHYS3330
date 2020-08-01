@@ -126,4 +126,6 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
 
         private void loadChart(DataItem dataItem) {
             if (dataItem.getListQuote().get(0).getPercentChange24h() < 0) {
-                int red = currencyItemLayoutBinding.getRoot().getContext().getResources().get
+                int red = currencyItemLayoutBinding.getRoot().getContext().getResources().getColor(R.color.red);
+                currencyItemLayoutBinding.currencyChartImageView.setColorFilter(red);
+            } else
