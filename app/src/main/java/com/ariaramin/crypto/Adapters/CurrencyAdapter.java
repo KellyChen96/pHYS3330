@@ -125,4 +125,5 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
         }
 
         private void loadChart(DataItem dataItem) {
-            if (dataItem.getListQuo
+            if (dataItem.getListQuote().get(0).getPercentChange24h() < 0) {
+                int red = currencyItemLayoutBinding.getRoot().getContext().getResources().get
