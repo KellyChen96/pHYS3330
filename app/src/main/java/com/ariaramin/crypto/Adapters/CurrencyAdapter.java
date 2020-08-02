@@ -135,4 +135,8 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
             Glide.with(currencyItemLayoutBinding.getRoot().getContext())
                     .load("https://s3.coinmarketcap.com/generated/sparklines/web/7d/usd/" + dataItem.getId() + ".png")
                     .transition(DrawableTransitionOptions.withCrossFade())
-                    .into(currencyItemLayoutBinding.currencyChartImageView)
+                    .into(currencyItemLayoutBinding.currencyChartImageView);
+        }
+    }
+
+}
