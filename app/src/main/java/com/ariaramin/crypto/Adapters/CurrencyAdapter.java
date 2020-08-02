@@ -130,4 +130,6 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
                 currencyItemLayoutBinding.currencyChartImageView.setColorFilter(red);
             } else {
                 int green = currencyItemLayoutBinding.getRoot().getContext().getResources().getColor(R.color.green);
-                currencyItemLa
+                currencyItemLayoutBinding.currencyChartImageView.setColorFilter(green);
+            }
+            Glide.with(currencyItemLayoutBinding.getRoot().getContext
