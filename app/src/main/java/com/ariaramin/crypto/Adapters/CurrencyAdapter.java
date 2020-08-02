@@ -132,4 +132,6 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.Curren
                 int green = currencyItemLayoutBinding.getRoot().getContext().getResources().getColor(R.color.green);
                 currencyItemLayoutBinding.currencyChartImageView.setColorFilter(green);
             }
-            Glide.with(currencyItemLayoutBinding.getRoot().getContext
+            Glide.with(currencyItemLayoutBinding.getRoot().getContext())
+                    .load("https://s3.coinmarketcap.com/generated/sparklines/web/7d/usd/" + dataItem.getId() + ".png")
+            
