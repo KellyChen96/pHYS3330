@@ -11,4 +11,7 @@ import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.ariaramin.crypto.Models.DataItem;
-import com.ariar
+import com.ariaramin.crypto.R;
+import com.ariaramin.crypto.Room.Entities.AllMarketEntity;
+import com.ariaramin.crypto.databinding.TopCurrencyLayoutBinding;
+im
