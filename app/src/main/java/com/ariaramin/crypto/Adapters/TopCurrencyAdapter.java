@@ -14,4 +14,8 @@ import com.ariaramin.crypto.Models.DataItem;
 import com.ariaramin.crypto.R;
 import com.ariaramin.crypto.Room.Entities.AllMarketEntity;
 import com.ariaramin.crypto.databinding.TopCurrencyLayoutBinding;
-im
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
+
+import java.lang.reflect.Array;
+import 
