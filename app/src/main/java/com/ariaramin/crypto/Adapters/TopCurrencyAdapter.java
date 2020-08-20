@@ -18,4 +18,8 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
 import java.lang.reflect.Array;
-import 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class TopCurrencyAdapter extends RecyclerView.Adapte
