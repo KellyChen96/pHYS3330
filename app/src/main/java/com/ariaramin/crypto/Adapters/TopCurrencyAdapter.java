@@ -32,4 +32,6 @@ public class TopCurrencyAdapter extends RecyclerView.Adapter<TopCurrencyAdapter.
 
     @NonNull
     @Override
-    public TopCurrencyViewHolder onCreateViewHolder(@NonNull ViewGroup pa
+    public TopCurrencyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
+        TopCurrencyLayoutBinding topCurrency
