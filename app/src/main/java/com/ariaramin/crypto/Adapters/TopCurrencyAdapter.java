@@ -27,3 +27,9 @@ public class TopCurrencyAdapter extends RecyclerView.Adapter<TopCurrencyAdapter.
     List<DataItem> dataItems;
 
     public TopCurrencyAdapter(List<DataItem> dataItems) {
+        this.dataItems = dataItems;
+    }
+
+    @NonNull
+    @Override
+    public TopCurrencyViewHolder onCreateViewHolder(@NonNull ViewGroup pa
