@@ -22,4 +22,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class TopCurrencyAdapter extends RecyclerView.Adapte
+public class TopCurrencyAdapter extends RecyclerView.Adapter<TopCurrencyAdapter.TopCurrencyViewHolder> {
+
+    List<DataItem> dataItems;
+
+    public TopCurrencyAdapter(List<DataItem> dataItems) {
