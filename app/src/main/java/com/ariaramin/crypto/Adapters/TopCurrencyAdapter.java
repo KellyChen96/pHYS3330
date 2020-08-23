@@ -34,4 +34,5 @@ public class TopCurrencyAdapter extends RecyclerView.Adapter<TopCurrencyAdapter.
     @Override
     public TopCurrencyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
-        TopCurrencyLayoutBinding topCurrency
+        TopCurrencyLayoutBinding topCurrencyLayoutBinding = DataBindingUtil.inflate(layoutInflater, R.layout.top_currency_layout, parent, false);
+        return new TopC
