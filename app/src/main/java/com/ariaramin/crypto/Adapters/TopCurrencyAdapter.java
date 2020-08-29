@@ -39,4 +39,9 @@ public class TopCurrencyAdapter extends RecyclerView.Adapter<TopCurrencyAdapter.
     }
 
     @Override
-    public void onBindViewHolder(@NonNull TopCurrencyVie
+    public void onBindViewHolder(@NonNull TopCurrencyViewHolder holder, int position) {
+        holder.bindData(dataItems.get(position));
+    }
+
+    @Override
+    public int getItemCount() 
