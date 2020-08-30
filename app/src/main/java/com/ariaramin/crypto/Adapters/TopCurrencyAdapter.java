@@ -44,4 +44,9 @@ public class TopCurrencyAdapter extends RecyclerView.Adapter<TopCurrencyAdapter.
     }
 
     @Override
-    public int getItemCount() 
+    public int getItemCount() {
+        return dataItems.size();
+    }
+
+    public void updateList(List<DataItem> dataItemList) {
+        dataI
