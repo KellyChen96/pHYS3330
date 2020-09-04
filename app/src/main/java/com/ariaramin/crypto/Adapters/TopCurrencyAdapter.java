@@ -49,4 +49,9 @@ public class TopCurrencyAdapter extends RecyclerView.Adapter<TopCurrencyAdapter.
     }
 
     public void updateList(List<DataItem> dataItemList) {
-        dataI
+        dataItems.clear();
+        dataItems.addAll(dataItemList);
+        notifyDataSetChanged();
+    }
+
+    static class TopCurrencyViewHold
