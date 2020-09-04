@@ -54,4 +54,8 @@ public class TopCurrencyAdapter extends RecyclerView.Adapter<TopCurrencyAdapter.
         notifyDataSetChanged();
     }
 
-    static class TopCurrencyViewHold
+    static class TopCurrencyViewHolder extends RecyclerView.ViewHolder {
+
+        TopCurrencyLayoutBinding topCurrencyLayoutBinding;
+
+        public TopCurrencyViewHold
