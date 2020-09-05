@@ -58,4 +58,6 @@ public class TopCurrencyAdapter extends RecyclerView.Adapter<TopCurrencyAdapter.
 
         TopCurrencyLayoutBinding topCurrencyLayoutBinding;
 
-        public TopCurrencyViewHold
+        public TopCurrencyViewHolder(@NonNull TopCurrencyLayoutBinding topCurrencyLayoutBinding) {
+            super(topCurrencyLayoutBinding.getRoot());
+            this.
