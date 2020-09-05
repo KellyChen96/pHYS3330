@@ -66,4 +66,7 @@ public class TopCurrencyAdapter extends RecyclerView.Adapter<TopCurrencyAdapter.
         public void bindData(DataItem dataItem) {
             loadCoinLogo(dataItem);
             setChangeText(dataItem);
-            topCurrencyLayoutBinding.topCurrencyNameTextView.setText(dataItem.getName
+            topCurrencyLayoutBinding.topCurrencyNameTextView.setText(dataItem.getName());
+            topCurrencyLayoutBinding.topCurrencyCardView.setOnClickListener(new View.OnClickListener() {
+                @Override
+     
