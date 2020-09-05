@@ -69,4 +69,6 @@ public class TopCurrencyAdapter extends RecyclerView.Adapter<TopCurrencyAdapter.
             topCurrencyLayoutBinding.topCurrencyNameTextView.setText(dataItem.getName());
             topCurrencyLayoutBinding.topCurrencyCardView.setOnClickListener(new View.OnClickListener() {
                 @Override
-     
+                public void onClick(View v) {
+                    Bundle bundle = new Bundle();
+                    bundle.putParcela
