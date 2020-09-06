@@ -71,4 +71,6 @@ public class TopCurrencyAdapter extends RecyclerView.Adapter<TopCurrencyAdapter.
                 @Override
                 public void onClick(View v) {
                     Bundle bundle = new Bundle();
-                    bundle.putParcela
+                    bundle.putParcelable("Coin", dataItem);
+                    Navigation.findNavController(v).navigate(R.id.action_homeFragment_to_detailFragment, bundle);
+ 
