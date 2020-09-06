@@ -80,4 +80,5 @@ public class TopCurrencyAdapter extends RecyclerView.Adapter<TopCurrencyAdapter.
 
         private void loadCoinLogo(DataItem dataItem) {
             Glide.with(topCurrencyLayoutBinding.getRoot().getContext())
-       
+                    .load("https://s2.coinmarketcap.com/static/img/coins/64x64/" + dataItem.getId() + ".png")
+                    
