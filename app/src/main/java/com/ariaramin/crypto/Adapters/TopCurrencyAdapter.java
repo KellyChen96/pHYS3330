@@ -73,4 +73,9 @@ public class TopCurrencyAdapter extends RecyclerView.Adapter<TopCurrencyAdapter.
                     Bundle bundle = new Bundle();
                     bundle.putParcelable("Coin", dataItem);
                     Navigation.findNavController(v).navigate(R.id.action_homeFragment_to_detailFragment, bundle);
- 
+                }
+            });
+            topCurrencyLayoutBinding.executePendingBindings();
+        }
+
+        private 
