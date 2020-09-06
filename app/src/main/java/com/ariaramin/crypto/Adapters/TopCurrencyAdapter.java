@@ -78,4 +78,6 @@ public class TopCurrencyAdapter extends RecyclerView.Adapter<TopCurrencyAdapter.
             topCurrencyLayoutBinding.executePendingBindings();
         }
 
-        private 
+        private void loadCoinLogo(DataItem dataItem) {
+            Glide.with(topCurrencyLayoutBinding.getRoot().getContext())
+       
