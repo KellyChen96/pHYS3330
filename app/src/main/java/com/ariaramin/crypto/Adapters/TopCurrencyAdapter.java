@@ -87,4 +87,6 @@ public class TopCurrencyAdapter extends RecyclerView.Adapter<TopCurrencyAdapter.
                     .into(topCurrencyLayoutBinding.topCurrencyImageView);
         }
 
-        priv
+        private void setChangeText(DataItem dataItem) {
+            if (dataItem.getListQuote().get(0).getPercentChange24h() > 0){
+                int green
