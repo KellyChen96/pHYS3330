@@ -83,4 +83,8 @@ public class TopCurrencyAdapter extends RecyclerView.Adapter<TopCurrencyAdapter.
                     .load("https://s2.coinmarketcap.com/static/img/coins/64x64/" + dataItem.getId() + ".png")
                     .thumbnail(
                             Glide.with(topCurrencyLayoutBinding.getRoot().getContext())
-                               
+                                    .load(R.drawable.spinner))
+                    .into(topCurrencyLayoutBinding.topCurrencyImageView);
+        }
+
+        priv
