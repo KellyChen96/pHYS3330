@@ -90,4 +90,5 @@ public class TopCurrencyAdapter extends RecyclerView.Adapter<TopCurrencyAdapter.
         private void setChangeText(DataItem dataItem) {
             if (dataItem.getListQuote().get(0).getPercentChange24h() > 0){
                 int green = topCurrencyLayoutBinding.getRoot().getContext().getResources().getColor(R.color.green);
-                topCurrencyLayoutBi
+                topCurrencyLayoutBinding.topCurrencyChangeTextView.setTextColor(green);
+                topCurrencyLayoutBinding.topCurrencyChangeTextView.setText(Stri
