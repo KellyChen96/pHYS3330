@@ -4,4 +4,8 @@ import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.viewpa
+import androidx.viewpager2.adapter.FragmentStateAdapter;
+
+import com.ariaramin.crypto.ui.Fragments.TopGainLoseFragment;
+
+public class 
