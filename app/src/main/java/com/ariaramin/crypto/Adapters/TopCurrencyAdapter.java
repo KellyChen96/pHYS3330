@@ -95,4 +95,9 @@ public class TopCurrencyAdapter extends RecyclerView.Adapter<TopCurrencyAdapter.
             }else {
                 int red = topCurrencyLayoutBinding.getRoot().getContext().getResources().getColor(R.color.red);
                 topCurrencyLayoutBinding.topCurrencyChangeTextView.setTextColor(red);
-                topCurrencyLayoutBinding.topCurrencyChangeTextView.setText(String.format("%.2f",dataItem.getLi
+                topCurrencyLayoutBinding.topCurrencyChangeTextView.setText(String.format("%.2f",dataItem.getListQuote().get(0).getPercentChange24h()) + "%");
+            }
+        }
+
+    }
+}
