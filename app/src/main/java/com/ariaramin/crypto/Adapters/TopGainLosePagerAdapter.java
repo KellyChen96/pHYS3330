@@ -8,4 +8,6 @@ import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 import com.ariaramin.crypto.ui.Fragments.TopGainLoseFragment;
 
-public class 
+public class TopGainLosePagerAdapter extends FragmentStateAdapter {
+
+    public TopGainLosePagerAdapter(@NonNull Fragment frag
