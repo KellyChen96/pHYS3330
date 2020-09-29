@@ -10,4 +10,11 @@ import com.ariaramin.crypto.ui.Fragments.TopGainLoseFragment;
 
 public class TopGainLosePagerAdapter extends FragmentStateAdapter {
 
-    public TopGainLosePagerAdapter(@NonNull Fragment frag
+    public TopGainLosePagerAdapter(@NonNull Fragment fragment) {
+        super(fragment);
+    }
+
+    @NonNull
+    @Override
+    public Fragment createFragment(int position) {
+        Fragme
