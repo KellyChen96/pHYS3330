@@ -20,4 +20,12 @@ public class TopGainLosePagerAdapter extends FragmentStateAdapter {
         Fragment fragment = new TopGainLoseFragment();
         Bundle bundle = new Bundle();
         bundle.putInt("position", position);
-        fr
+        fragment.setArguments(bundle);
+        return fragment;
+    }
+
+    @Override
+    public int getItemCount() {
+        return 2;
+    }
+}
