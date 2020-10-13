@@ -8,4 +8,7 @@ import com.ariaramin.crypto.Room.DatabaseDao;
 import javax.inject.Singleton;
 
 import dagger.Module;
-import dagg
+import dagger.Provides;
+import dagger.hilt.InstallIn;
+import dagger.hilt.android.qualifiers.ApplicationContext;
+import dagger.
