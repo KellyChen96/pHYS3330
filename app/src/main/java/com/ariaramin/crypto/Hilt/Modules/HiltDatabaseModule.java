@@ -11,4 +11,11 @@ import dagger.Module;
 import dagger.Provides;
 import dagger.hilt.InstallIn;
 import dagger.hilt.android.qualifiers.ApplicationContext;
-import dagger.
+import dagger.hilt.components.SingletonComponent;
+
+@Module
+@InstallIn(SingletonComponent.class)
+public class HiltDatabaseModule {
+
+    @Provides
+    @Singleton
