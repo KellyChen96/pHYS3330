@@ -21,4 +21,9 @@ public class HiltDatabaseModule {
     @Singleton
     AppDatabase ProvideAppDatabase(@ApplicationContext Context context) {
         return AppDatabase.getInstance(context);
-    
+    }
+
+    @Provides
+    @Singleton
+    DatabaseDao ProvideDatabaseDao(AppDatabase appDatabase) {
+        return appDatabase.databaseD
