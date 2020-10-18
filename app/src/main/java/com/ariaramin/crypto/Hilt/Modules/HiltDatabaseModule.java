@@ -19,3 +19,6 @@ public class HiltDatabaseModule {
 
     @Provides
     @Singleton
+    AppDatabase ProvideAppDatabase(@ApplicationContext Context context) {
+        return AppDatabase.getInstance(context);
+    
