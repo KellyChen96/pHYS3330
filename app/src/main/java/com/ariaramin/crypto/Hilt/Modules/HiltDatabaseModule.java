@@ -26,4 +26,6 @@ public class HiltDatabaseModule {
     @Provides
     @Singleton
     DatabaseDao ProvideDatabaseDao(AppDatabase appDatabase) {
-        return appDatabase.databaseD
+        return appDatabase.databaseDao();
+    }
+}
