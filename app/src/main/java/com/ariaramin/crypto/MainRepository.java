@@ -8,4 +8,6 @@ import com.ariaramin.crypto.Room.DatabaseDao;
 import com.ariaramin.crypto.Room.Entities.AllMarketEntity;
 
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
-impo
+import io.reactivex.rxjava3.annotations.NonNull;
+import io.reactivex.rxjava3.core.Completable;
+import io.reactivex.rxjava3.core.Completab
