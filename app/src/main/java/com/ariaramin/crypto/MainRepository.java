@@ -24,4 +24,9 @@ public class MainRepository {
     CompositeDisposable compositeDisposable;
 
     public MainRepository(RequestApi requestApi, DatabaseDao databaseDao) {
-        this.requestApi
+        this.requestApi = requestApi;
+        this.databaseDao = databaseDao;
+        compositeDisposable = new CompositeDisposable();
+    }
+
+    public Obser
