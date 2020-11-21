@@ -29,4 +29,8 @@ public class MainRepository {
         compositeDisposable = new CompositeDisposable();
     }
 
-    public Obser
+    public Observable<AllMarket> getAllMarketList() {
+        return requestApi.getMarketList();
+    }
+
+    public void insertAllMarket(AllMarket a
