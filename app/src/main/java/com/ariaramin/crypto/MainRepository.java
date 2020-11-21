@@ -33,4 +33,6 @@ public class MainRepository {
         return requestApi.getMarketList();
     }
 
-    public void insertAllMarket(AllMarket a
+    public void insertAllMarket(AllMarket allMarket) {
+        Completable.fromAction(() -> databaseDao.insert(new AllMarketEntity(allMarket)))
+                .subscribe
