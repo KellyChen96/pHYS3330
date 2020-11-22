@@ -35,4 +35,7 @@ public class MainRepository {
 
     public void insertAllMarket(AllMarket allMarket) {
         Completable.fromAction(() -> databaseDao.insert(new AllMarketEntity(allMarket)))
-                .subscribe
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(new CompletableObserver() {
+                    
