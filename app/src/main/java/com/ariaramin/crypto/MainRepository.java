@@ -49,4 +49,10 @@ public class MainRepository {
                     }
 
                     @Override
-                    public void onError(@
+                    public void onError(@NonNull Throwable e) {
+                        e.printStackTrace();
+                    }
+                });
+    }
+
+    pub
