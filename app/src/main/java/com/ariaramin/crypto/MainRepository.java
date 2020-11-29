@@ -41,4 +41,8 @@ public class MainRepository {
                     @Override
                     public void onSubscribe(@NonNull Disposable d) {
                         compositeDisposable.add(d);
-    
+                    }
+
+                    @Override
+                    public void onComplete() {
+                        
