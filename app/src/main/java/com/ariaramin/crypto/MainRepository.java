@@ -45,4 +45,8 @@ public class MainRepository {
 
                     @Override
                     public void onComplete() {
-                        
+                        Log.i("insertAllMarket", "Completed");
+                    }
+
+                    @Override
+                    public void onError(@
