@@ -55,4 +55,7 @@ public class MainRepository {
                 });
     }
 
-    pub
+    public Flowable<AllMarketEntity> getAllMarketEntity() {
+        return databaseDao.getAllMarket();
+    }
+}
