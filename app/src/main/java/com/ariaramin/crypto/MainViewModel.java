@@ -18,4 +18,9 @@ import io.reactivex.rxjava3.core.Flowable;
 import io.reactivex.rxjava3.core.Observable;
 
 @HiltViewModel
-public class Mai
+public class MainViewModel extends AndroidViewModel {
+
+    MutableLiveData<ArrayList<Integer>> sliderData = new MutableLiveData<>();
+
+    @Inject
+    MainReposit
