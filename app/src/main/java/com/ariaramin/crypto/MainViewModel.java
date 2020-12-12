@@ -13,4 +13,9 @@ import java.util.ArrayList;
 
 import javax.inject.Inject;
 
-import dagger.hilt.android.lifecycle.Hi
+import dagger.hilt.android.lifecycle.HiltViewModel;
+import io.reactivex.rxjava3.core.Flowable;
+import io.reactivex.rxjava3.core.Observable;
+
+@HiltViewModel
+public class Mai
