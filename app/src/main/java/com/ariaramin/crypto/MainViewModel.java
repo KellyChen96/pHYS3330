@@ -28,4 +28,9 @@ public class MainViewModel extends AndroidViewModel {
     @Inject
     public MainViewModel(@NonNull Application application) {
         super(application);
-        getViewPager
+        getViewPagerData();
+    }
+
+    void getViewPagerData() {
+        ArrayList<Integer> images = new ArrayList<>();
+        images.add(R.
