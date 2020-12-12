@@ -23,4 +23,9 @@ public class MainViewModel extends AndroidViewModel {
     MutableLiveData<ArrayList<Integer>> sliderData = new MutableLiveData<>();
 
     @Inject
-    MainReposit
+    MainRepository mainRepository;
+
+    @Inject
+    public MainViewModel(@NonNull Application application) {
+        super(application);
+        getViewPager
