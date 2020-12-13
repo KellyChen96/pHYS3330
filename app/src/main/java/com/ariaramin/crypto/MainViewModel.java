@@ -41,4 +41,9 @@ public class MainViewModel extends AndroidViewModel {
         sliderData.postValue(images);
     }
 
-    public MutableLiveData<ArrayL
+    public MutableLiveData<ArrayList<Integer>> getSliderData() {
+        return sliderData;
+    }
+
+    public Observable<AllMarket> getAllMarket(){
+        ret
