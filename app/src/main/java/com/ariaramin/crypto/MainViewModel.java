@@ -33,4 +33,7 @@ public class MainViewModel extends AndroidViewModel {
 
     void getViewPagerData() {
         ArrayList<Integer> images = new ArrayList<>();
-        images.add(R.
+        images.add(R.drawable.banner);
+        images.add(R.drawable.banner2);
+        images.add(R.drawable.banner3);
+        images.add(R.drawable.ba
