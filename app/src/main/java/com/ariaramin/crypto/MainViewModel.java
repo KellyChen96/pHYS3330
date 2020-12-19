@@ -46,4 +46,8 @@ public class MainViewModel extends AndroidViewModel {
     }
 
     public Observable<AllMarket> getAllMarket(){
-        ret
+        return mainRepository.getAllMarketList();
+    }
+
+    public void insertAllMarket(AllMarket allMarket){
+        mainRepository
