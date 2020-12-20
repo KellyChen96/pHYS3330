@@ -50,4 +50,8 @@ public class MainViewModel extends AndroidViewModel {
     }
 
     public void insertAllMarket(AllMarket allMarket){
-        mainRepository
+        mainRepository.insertAllMarket(allMarket);
+    }
+
+    public Flowable<AllMarketEntity> getAllMarketEntity() {
+        return mainRepository.g
