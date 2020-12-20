@@ -54,4 +54,7 @@ public class MainViewModel extends AndroidViewModel {
     }
 
     public Flowable<AllMarketEntity> getAllMarketEntity() {
-        return mainRepository.g
+        return mainRepository.getAllMarketEntity();
+    }
+
+}
