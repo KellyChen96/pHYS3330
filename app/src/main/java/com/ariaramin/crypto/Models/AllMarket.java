@@ -9,4 +9,12 @@ public class AllMarket {
     @SerializedName("data")
     private Data data;
 
-    @SerializedName("statu
+    @SerializedName("status")
+    private Status status;
+
+    public Data getData(){
+        return data;
+    }
+
+    public Status getStatus(){
+        ret
