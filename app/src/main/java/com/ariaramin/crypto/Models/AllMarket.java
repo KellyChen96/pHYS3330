@@ -24,4 +24,9 @@ public class AllMarket {
     public static class Data{
 
         @SerializedName("cryptoCurrencyList")
-        private List<DataItem> cryp
+        private List<DataItem> cryptoCurrencyList;
+
+        @SerializedName("totalCount")
+        private int totalCount;
+
+        public List<DataItem> getCryptoCurrencyLis
