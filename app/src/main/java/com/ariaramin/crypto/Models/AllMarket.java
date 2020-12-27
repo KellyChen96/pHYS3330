@@ -36,3 +36,11 @@ public class AllMarket {
         public int getTotalCount() {
             return totalCount;
         }
+    }
+
+    public static class Status{
+
+        @SerializedName("timestamp")
+        private String timestamp;
+
+        @Serial
