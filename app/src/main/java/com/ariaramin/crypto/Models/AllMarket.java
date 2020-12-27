@@ -17,4 +17,11 @@ public class AllMarket {
     }
 
     public Status getStatus(){
-        ret
+        return status;
+    }
+
+
+    public static class Data{
+
+        @SerializedName("cryptoCurrencyList")
+        private List<DataItem> cryp
