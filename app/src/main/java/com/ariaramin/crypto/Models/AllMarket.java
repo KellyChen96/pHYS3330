@@ -43,4 +43,8 @@ public class AllMarket {
         @SerializedName("timestamp")
         private String timestamp;
 
-        @Serial
+        @SerializedName("error_code")
+        private int errorCode;
+
+        @SerializedName("error_message")
+        private String errorMessage;
