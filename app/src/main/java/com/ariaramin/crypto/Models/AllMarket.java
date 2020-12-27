@@ -29,4 +29,10 @@ public class AllMarket {
         @SerializedName("totalCount")
         private int totalCount;
 
-        public List<DataItem> getCryptoCurrencyLis
+        public List<DataItem> getCryptoCurrencyList() {
+            return cryptoCurrencyList;
+        }
+
+        public int getTotalCount() {
+            return totalCount;
+        }
