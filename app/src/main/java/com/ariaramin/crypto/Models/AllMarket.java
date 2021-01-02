@@ -48,3 +48,9 @@ public class AllMarket {
 
         @SerializedName("error_message")
         private String errorMessage;
+
+        @SerializedName("elapsed")
+        private int elapsed;
+
+        @SerializedName("credit_count")
+ 
