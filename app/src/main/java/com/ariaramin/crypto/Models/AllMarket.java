@@ -59,4 +59,9 @@ public class AllMarket {
             return timestamp;
         }
 
-        public int ge
+        public int getErrorCode() {
+            return errorCode;
+        }
+
+        public String getErrorMessage() {
+            return errorMessage;
