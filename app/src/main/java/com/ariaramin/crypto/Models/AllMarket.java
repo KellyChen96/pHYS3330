@@ -65,3 +65,11 @@ public class AllMarket {
 
         public String getErrorMessage() {
             return errorMessage;
+        }
+
+        public int getElapsed() {
+            return elapsed;
+        }
+
+        public int getCreditCount() {
+         
