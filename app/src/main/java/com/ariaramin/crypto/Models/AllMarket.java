@@ -53,4 +53,10 @@ public class AllMarket {
         private int elapsed;
 
         @SerializedName("credit_count")
- 
+        private int creditCount;
+
+        public String getTimestamp() {
+            return timestamp;
+        }
+
+        public int ge
