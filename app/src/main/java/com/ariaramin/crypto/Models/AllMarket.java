@@ -72,4 +72,7 @@ public class AllMarket {
         }
 
         public int getCreditCount() {
-         
+            return creditCount;
+        }
+    }
+}
