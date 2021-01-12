@@ -16,4 +16,8 @@ public class DataItem implements Parcelable {
     @SerializedName("name")
     private String name;
 
-    
+    @SerializedName("symbol")
+    private String symbol;
+
+    @SerializedName("lastUpdated")
+    private String lastUpd
