@@ -20,4 +20,10 @@ public class DataItem implements Parcelable {
     private String symbol;
 
     @SerializedName("lastUpdated")
-    private String lastUpd
+    private String lastUpdated;
+
+    @SerializedName("cmc_rank")
+    private int cmcRank;
+
+    @SerializedName("marketPairCount")
+    private int numMarke
