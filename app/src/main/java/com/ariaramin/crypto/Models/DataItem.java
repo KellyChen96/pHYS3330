@@ -26,4 +26,10 @@ public class DataItem implements Parcelable {
     private int cmcRank;
 
     @SerializedName("marketPairCount")
-    private int numMarke
+    private int numMarketPairs;
+
+    @SerializedName("circulatingSupply")
+    private double circulatingSupply;
+
+    @SerializedName("totalSupply")
+ 
