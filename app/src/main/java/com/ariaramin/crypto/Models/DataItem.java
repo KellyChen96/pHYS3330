@@ -32,4 +32,10 @@ public class DataItem implements Parcelable {
     private double circulatingSupply;
 
     @SerializedName("totalSupply")
+    private Number totalSupply;
+
+    @SerializedName("max_supply")
+    private double maxSupply;
+
+    @SerializedName("ath")
  
