@@ -38,4 +38,12 @@ public class DataItem implements Parcelable {
     private double maxSupply;
 
     @SerializedName("ath")
- 
+    private double ath;
+
+    @SerializedName("atl")
+    private double atl;
+
+    @SerializedName("high24h")
+    private double high24h;
+
+    @Ser
