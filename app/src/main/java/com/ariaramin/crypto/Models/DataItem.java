@@ -46,4 +46,10 @@ public class DataItem implements Parcelable {
     @SerializedName("high24h")
     private double high24h;
 
-    @Ser
+    @SerializedName("low24h")
+    private double low24h;
+
+    @SerializedName("isActive")
+    private int isActive;
+
+    @Serializ
