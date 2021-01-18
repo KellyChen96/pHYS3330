@@ -52,4 +52,10 @@ public class DataItem implements Parcelable {
     @SerializedName("isActive")
     private int isActive;
 
-    @Serializ
+    @SerializedName("tags")
+    private List<String> tags;
+
+    @SerializedName("dateAdded")
+    private String dateAdded;
+
+    @SerializedName("quotes"
