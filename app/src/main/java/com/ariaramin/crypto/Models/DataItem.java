@@ -58,4 +58,11 @@ public class DataItem implements Parcelable {
     @SerializedName("dateAdded")
     private String dateAdded;
 
-    @SerializedName("quotes"
+    @SerializedName("quotes")
+    private List<USD> listQuote;
+
+    @SerializedName("slug")
+    private String slug;
+
+    public int getId() {
+        return
