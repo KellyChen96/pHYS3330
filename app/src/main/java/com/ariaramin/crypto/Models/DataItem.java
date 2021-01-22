@@ -65,4 +65,15 @@ public class DataItem implements Parcelable {
     private String slug;
 
     public int getId() {
-        return
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSymbol() {
+        return symbol;
+    }
+
+    
