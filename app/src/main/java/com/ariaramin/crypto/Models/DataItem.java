@@ -76,4 +76,12 @@ public class DataItem implements Parcelable {
         return symbol;
     }
 
+    public String getLastUpdated() {
+        return lastUpdated;
+    }
+
+    public int getCmcRank() {
+        return cmcRank;
+    }
+
     
