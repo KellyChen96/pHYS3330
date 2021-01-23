@@ -84,4 +84,9 @@ public class DataItem implements Parcelable {
         return cmcRank;
     }
 
-    
+    public int getNumMarketPairs() {
+        return numMarketPairs;
+    }
+
+    public double getCirculatingSupply() {
+        return 
