@@ -89,4 +89,12 @@ public class DataItem implements Parcelable {
     }
 
     public double getCirculatingSupply() {
-        return 
+        return circulatingSupply;
+    }
+
+    public Number getTotalSupply() {
+        return totalSupply;
+    }
+
+    public double getMaxSupply() {
+        retur
