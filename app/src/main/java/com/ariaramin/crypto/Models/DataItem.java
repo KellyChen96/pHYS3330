@@ -97,4 +97,14 @@ public class DataItem implements Parcelable {
     }
 
     public double getMaxSupply() {
-        retur
+        return maxSupply;
+    }
+
+    public double getAth() {
+        return ath;
+    }
+
+    public double getAtl() {
+        return atl;
+    }
+
