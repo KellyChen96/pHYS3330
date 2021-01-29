@@ -116,4 +116,10 @@ public class DataItem implements Parcelable {
         return low24h;
     }
 
-    publ
+    public int getIsActive() {
+        return isActive;
+    }
+
+    public List<String> getTags() {
+        return tags;
+  
