@@ -108,3 +108,12 @@ public class DataItem implements Parcelable {
         return atl;
     }
 
+    public double getHigh24h() {
+        return high24h;
+    }
+
+    public double getLow24h() {
+        return low24h;
+    }
+
+    publ
