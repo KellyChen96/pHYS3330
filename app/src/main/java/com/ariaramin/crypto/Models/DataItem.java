@@ -122,4 +122,11 @@ public class DataItem implements Parcelable {
 
     public List<String> getTags() {
         return tags;
-  
+    }
+
+    public String getDateAdded() {
+        return dateAdded;
+    }
+
+    public List<USD> getListQuote() {
+        return l
