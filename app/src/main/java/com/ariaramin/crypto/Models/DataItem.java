@@ -129,4 +129,14 @@ public class DataItem implements Parcelable {
     }
 
     public List<USD> getListQuote() {
-        return l
+        return listQuote;
+    }
+
+    public String getSlug() {
+        return slug;
+    }
+
+
+    @Override
+    public int describeContents() {
+        retu
