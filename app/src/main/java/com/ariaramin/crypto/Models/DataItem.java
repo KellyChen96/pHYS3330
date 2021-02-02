@@ -139,4 +139,10 @@ public class DataItem implements Parcelable {
 
     @Override
     public int describeContents() {
-        retu
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeInt(this.id);
+        dest.writeString(this.name
