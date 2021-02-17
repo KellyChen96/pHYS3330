@@ -145,4 +145,8 @@ public class DataItem implements Parcelable {
     @Override
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeInt(this.id);
-        dest.writeString(this.name
+        dest.writeString(this.name);
+        dest.writeString(this.symbol);
+        dest.writeString(this.lastUpdated);
+        dest.writeInt(this.cmcRank);
+        dest.wr
