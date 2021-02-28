@@ -151,4 +151,8 @@ public class DataItem implements Parcelable {
         dest.writeInt(this.cmcRank);
         dest.writeInt(this.numMarketPairs);
         dest.writeDouble(this.circulatingSupply);
-        dest.writeSerializable(this.totalSupply)
+        dest.writeSerializable(this.totalSupply);
+        dest.writeDouble(this.maxSupply);
+        dest.writeDouble(this.ath);
+        dest.writeDouble(this.atl);
+    
