@@ -158,4 +158,7 @@ public class DataItem implements Parcelable {
         dest.writeDouble(this.high24h);
         dest.writeDouble(this.low24h);
         dest.writeInt(this.isActive);
-      
+        dest.writeStringList(this.tags);
+        dest.writeString(this.dateAdded);
+        dest.writeList(this.listQuote);
+        dest.
