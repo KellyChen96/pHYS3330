@@ -161,4 +161,9 @@ public class DataItem implements Parcelable {
         dest.writeStringList(this.tags);
         dest.writeString(this.dateAdded);
         dest.writeList(this.listQuote);
-        dest.
+        dest.writeString(this.slug);
+    }
+
+    public void readFromParcel(Parcel source) {
+        this.id = source.readInt();
+  
