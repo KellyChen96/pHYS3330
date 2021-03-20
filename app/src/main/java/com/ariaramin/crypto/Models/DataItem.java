@@ -166,4 +166,6 @@ public class DataItem implements Parcelable {
 
     public void readFromParcel(Parcel source) {
         this.id = source.readInt();
-  
+        this.name = source.readString();
+        this.symbol = source.readString();
+        this.lastUpdated = source.readString()
