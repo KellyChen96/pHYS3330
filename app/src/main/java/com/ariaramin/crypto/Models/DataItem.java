@@ -168,4 +168,7 @@ public class DataItem implements Parcelable {
         this.id = source.readInt();
         this.name = source.readString();
         this.symbol = source.readString();
-        this.lastUpdated = source.readString()
+        this.lastUpdated = source.readString();
+        this.cmcRank = source.readInt();
+        this.numMarketPairs = source.readInt();
+        this.circulatingSupply = so
