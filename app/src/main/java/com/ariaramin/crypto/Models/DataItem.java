@@ -174,4 +174,7 @@ public class DataItem implements Parcelable {
         this.circulatingSupply = source.readDouble();
         this.totalSupply = (Number) source.readSerializable();
         this.maxSupply = source.readDouble();
-        this
+        this.ath = source.readDouble();
+        this.atl = source.readDouble();
+        this.high24h = source.readDouble();
+  
