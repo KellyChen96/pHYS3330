@@ -182,4 +182,11 @@ public class DataItem implements Parcelable {
         this.tags = source.createStringArrayList();
         this.dateAdded = source.readString();
         this.listQuote = new ArrayList<USD>();
-        source.readList(this.listQu
+        source.readList(this.listQuote, USD.class.getClassLoader());
+        this.slug = source.readString();
+    }
+
+    public DataItem() {
+    }
+
+    protected Dat
