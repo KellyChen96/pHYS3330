@@ -192,4 +192,8 @@ public class DataItem implements Parcelable {
     protected DataItem(Parcel in) {
         this.id = in.readInt();
         this.name = in.readString();
-        this.symbol = in.readString(
+        this.symbol = in.readString();
+        this.lastUpdated = in.readString();
+        this.cmcRank = in.readInt();
+        this.numMarketPairs = in.readInt();
+        this.circul
