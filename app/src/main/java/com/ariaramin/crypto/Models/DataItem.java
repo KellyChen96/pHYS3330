@@ -198,4 +198,8 @@ public class DataItem implements Parcelable {
         this.numMarketPairs = in.readInt();
         this.circulatingSupply = in.readDouble();
         this.totalSupply = (Number) in.readSerializable();
-        this.maxSupply
+        this.maxSupply = in.readDouble();
+        this.ath = in.readDouble();
+        this.atl = in.readDouble();
+        this.high24h = in.readDouble();
+  
