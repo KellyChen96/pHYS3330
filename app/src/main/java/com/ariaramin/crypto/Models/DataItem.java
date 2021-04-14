@@ -196,4 +196,6 @@ public class DataItem implements Parcelable {
         this.lastUpdated = in.readString();
         this.cmcRank = in.readInt();
         this.numMarketPairs = in.readInt();
-        this.circul
+        this.circulatingSupply = in.readDouble();
+        this.totalSupply = (Number) in.readSerializable();
+        this.maxSupply
