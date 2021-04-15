@@ -205,4 +205,6 @@ public class DataItem implements Parcelable {
         this.low24h = in.readDouble();
         this.isActive = in.readInt();
         this.tags = in.createStringArrayList();
- 
+        this.dateAdded = in.readString();
+        this.listQuote = new ArrayList<USD>();
+        in.readLi
