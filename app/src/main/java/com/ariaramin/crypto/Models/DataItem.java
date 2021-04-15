@@ -202,4 +202,7 @@ public class DataItem implements Parcelable {
         this.ath = in.readDouble();
         this.atl = in.readDouble();
         this.high24h = in.readDouble();
-  
+        this.low24h = in.readDouble();
+        this.isActive = in.readInt();
+        this.tags = in.createStringArrayList();
+ 
