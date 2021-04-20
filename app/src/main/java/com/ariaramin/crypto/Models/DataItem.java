@@ -214,4 +214,9 @@ public class DataItem implements Parcelable {
     public static final Parcelable.Creator<DataItem> CREATOR = new Parcelable.Creator<DataItem>() {
         @Override
         public DataItem createFromParcel(Parcel source) {
- 
+            return new DataItem(source);
+        }
+
+        @Override
+        public DataItem[] newArray(int size) {
+   
