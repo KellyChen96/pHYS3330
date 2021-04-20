@@ -211,4 +211,7 @@ public class DataItem implements Parcelable {
         this.slug = in.readString();
     }
 
-    public static final Parcelable.Crea
+    public static final Parcelable.Creator<DataItem> CREATOR = new Parcelable.Creator<DataItem>() {
+        @Override
+        public DataItem createFromParcel(Parcel source) {
+ 
