@@ -219,4 +219,7 @@ public class DataItem implements Parcelable {
 
         @Override
         public DataItem[] newArray(int size) {
-   
+            return new DataItem[size];
+        }
+    };
+}
