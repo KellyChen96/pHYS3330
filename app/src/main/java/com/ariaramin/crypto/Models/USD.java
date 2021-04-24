@@ -84,3 +84,28 @@ public class USD {
     public double getPercentChange7d() {
         return percentChange7d;
     }
+
+    public double getPercentChange30d() {
+        return percentChange30d;
+    }
+
+    public double getPercentChange60d() {
+        return percentChange60d;
+    }
+
+    public double getPercentChange90d() {
+        return percentChange90d;
+    }
+
+    public double getFullyDilluttedMarketCap() {
+        return fullyDilluttedMarketCap;
+    }
+
+    public double getDominance() {
+        return dominance;
+    }
+
+    public double getTurnover() {
+        return turnover;
+    }
+}
