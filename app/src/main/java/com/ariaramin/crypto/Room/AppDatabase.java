@@ -8,4 +8,7 @@ import androidx.room.RoomDatabase;
 import androidx.room.TypeConverters;
 
 import com.ariaramin.crypto.Room.Converters.AllMarketConverter;
-i
+import com.ariaramin.crypto.Room.Entities.AllMarketEntity;
+
+@TypeConverters({AllMarketConverter.class})
+@Database(entit
