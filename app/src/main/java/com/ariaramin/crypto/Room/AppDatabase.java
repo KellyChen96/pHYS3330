@@ -11,4 +11,7 @@ import com.ariaramin.crypto.Room.Converters.AllMarketConverter;
 import com.ariaramin.crypto.Room.Entities.AllMarketEntity;
 
 @TypeConverters({AllMarketConverter.class})
-@Database(entit
+@Database(entities = {AllMarketEntity.class}, version = 1, exportSchema = false)
+public abstract class AppDatabase extends RoomDatabase {
+
+    public 
