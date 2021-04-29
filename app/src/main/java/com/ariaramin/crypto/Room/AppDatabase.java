@@ -14,4 +14,7 @@ import com.ariaramin.crypto.Room.Entities.AllMarketEntity;
 @Database(entities = {AllMarketEntity.class}, version = 1, exportSchema = false)
 public abstract class AppDatabase extends RoomDatabase {
 
-    public 
+    public abstract DatabaseDao databaseDao();
+    private static AppDatabase instance;
+
+    public static AppDatabase getIn
