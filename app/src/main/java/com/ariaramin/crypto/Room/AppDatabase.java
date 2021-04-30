@@ -23,4 +23,9 @@ public abstract class AppDatabase extends RoomDatabase {
                     context.getApplicationContext(),
                     AppDatabase.class,
                     "crypto_db")
-           
+                    .fallbackToDestructiveMigration()
+                    .build();
+        }
+        return instance;
+    }
+}
