@@ -12,4 +12,8 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android
+import android.webkit.WebView;
+import android.widget.Button;
+
+import com.ariaramin.crypto.Adapters.DetailAdapter;
+import com.ariaramin.crypto.Main
