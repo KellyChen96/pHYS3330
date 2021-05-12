@@ -20,4 +20,9 @@ import com.ariaramin.crypto.MainActivity;
 import com.ariaramin.crypto.Models.DataItem;
 import com.ariaramin.crypto.R;
 import com.ariaramin.crypto.databinding.FragmentDetailBinding;
-import com
+import com.bumptech.glide.Glide;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
+import java.lang.reflect.Type;
+import java
