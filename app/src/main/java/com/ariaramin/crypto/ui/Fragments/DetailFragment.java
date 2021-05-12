@@ -16,4 +16,8 @@ import android.webkit.WebView;
 import android.widget.Button;
 
 import com.ariaramin.crypto.Adapters.DetailAdapter;
-import com.ariaramin.crypto.Main
+import com.ariaramin.crypto.MainActivity;
+import com.ariaramin.crypto.Models.DataItem;
+import com.ariaramin.crypto.R;
+import com.ariaramin.crypto.databinding.FragmentDetailBinding;
+import com
