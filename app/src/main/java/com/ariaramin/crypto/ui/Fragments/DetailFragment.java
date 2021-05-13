@@ -38,4 +38,9 @@ public class DetailFragment extends Fragment {
 
     @Override
     public void onAttach(@NonNull Context context) {
-        super.onAttach(contex
+        super.onAttach(context);
+        mainActivity = (MainActivity) context;
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewG
