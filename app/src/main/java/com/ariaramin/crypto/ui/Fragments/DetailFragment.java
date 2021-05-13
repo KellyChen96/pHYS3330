@@ -34,4 +34,8 @@ public class DetailFragment extends Fragment {
     Boolean watchlistIsChecked = false;
     MainActivity mainActivity;
     ArrayList<String> detailKeysArray;
-    ArrayList<S
+    ArrayList<String> detailValuesArray;
+
+    @Override
+    public void onAttach(@NonNull Context context) {
+        super.onAttach(contex
