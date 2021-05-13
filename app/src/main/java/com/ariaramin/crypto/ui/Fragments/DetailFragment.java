@@ -31,4 +31,7 @@ public class DetailFragment extends Fragment {
 
     FragmentDetailBinding detailBinding;
     ArrayList<String> watchlist;
-    Boolea
+    Boolean watchlistIsChecked = false;
+    MainActivity mainActivity;
+    ArrayList<String> detailKeysArray;
+    ArrayList<S
