@@ -47,4 +47,6 @@ public class DetailFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         detailBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_detail, container, false);
-        
+        Bundle args = getArguments();
+        DataItem dataItem = args.getParcelable("Coin");
+        mainActivity.smoothBottomB
