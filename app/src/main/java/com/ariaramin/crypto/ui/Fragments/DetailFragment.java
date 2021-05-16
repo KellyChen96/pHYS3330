@@ -46,3 +46,5 @@ public class DetailFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        detailBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_detail, container, false);
+        
