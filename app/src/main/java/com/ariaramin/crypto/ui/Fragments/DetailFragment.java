@@ -49,4 +49,5 @@ public class DetailFragment extends Fragment {
         detailBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_detail, container, false);
         Bundle args = getArguments();
         DataItem dataItem = args.getParcelable("Coin");
-        mainActivity.smoothBottomB
+        mainActivity.smoothBottomBar.setVisibility(View.GONE);
+        detailBinding.backStackButton.setOnClickListener(v -> requireActivity().onBackPr
