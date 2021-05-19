@@ -60,3 +60,8 @@ public class DetailFragment extends Fragment {
         setupDetailRecyclerView(dataItem);
         return detailBinding.getRoot();
     }
+
+    private void setupDetailRecyclerView(DataItem dataItem) {
+        fillDetailKeys();
+        fillDetailValues(dataItem);
+  
