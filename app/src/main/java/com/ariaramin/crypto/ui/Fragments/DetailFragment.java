@@ -56,4 +56,7 @@ public class DetailFragment extends Fragment {
         readData();
         addToWatchlist(dataItem);
         loadChart(dataItem);
-        se
+        setButtonsClickListener(dataItem);
+        setupDetailRecyclerView(dataItem);
+        return detailBinding.getRoot();
+    }
