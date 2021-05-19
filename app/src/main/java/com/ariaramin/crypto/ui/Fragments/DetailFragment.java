@@ -50,4 +50,10 @@ public class DetailFragment extends Fragment {
         Bundle args = getArguments();
         DataItem dataItem = args.getParcelable("Coin");
         mainActivity.smoothBottomBar.setVisibility(View.GONE);
-        detailBinding.backStackButton.setOnClickListener(v -> requireActivity().onBackPr
+        detailBinding.backStackButton.setOnClickListener(v -> requireActivity().onBackPressed());
+
+        setupDetail(dataItem);
+        readData();
+        addToWatchlist(dataItem);
+        loadChart(dataItem);
+        se
