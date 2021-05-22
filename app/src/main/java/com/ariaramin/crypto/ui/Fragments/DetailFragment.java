@@ -65,4 +65,8 @@ public class DetailFragment extends Fragment {
         fillDetailKeys();
         fillDetailValues(dataItem);
         DetailAdapter detailAdapter = new DetailAdapter(detailKeysArray, detailValuesArray);
-        detailBinding.detailRecyclerVi
+        detailBinding.detailRecyclerView.setAdapter(detailAdapter);
+    }
+
+    private void fillDetailValues(DataItem dataItem) {
+        detailValuesArray = new ArrayList<>(
