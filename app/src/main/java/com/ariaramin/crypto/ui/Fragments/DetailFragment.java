@@ -69,4 +69,7 @@ public class DetailFragment extends Fragment {
     }
 
     private void fillDetailValues(DataItem dataItem) {
-        detailValuesArray = new ArrayList<>(
+        detailValuesArray = new ArrayList<>();
+
+        String marketCap = dataItem.getListQuote().get(0).getMarketCap().toString().split("\\.")[0];
+        String volume24 =
