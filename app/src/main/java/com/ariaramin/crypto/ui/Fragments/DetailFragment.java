@@ -72,4 +72,5 @@ public class DetailFragment extends Fragment {
         detailValuesArray = new ArrayList<>();
 
         String marketCap = dataItem.getListQuote().get(0).getMarketCap().toString().split("\\.")[0];
-        String volume24 =
+        String volume24 = dataItem.getListQuote().get(0).getVolume24h().toString().split("\\.")[0];
+        String dominance = String.format("%.2f", dataItem.getListQuo
