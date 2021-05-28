@@ -75,4 +75,6 @@ public class DetailFragment extends Fragment {
         String volume24 = dataItem.getListQuote().get(0).getVolume24h().toString().split("\\.")[0];
         String dominance = String.format("%.2f", dataItem.getListQuote().get(0).getDominance());
         String percentageChange7 = String.format("%.2f", dataItem.getListQuote().get(0).getPercentChange7d());
-        String percentageChange30 = String.format("%.2f", dataItem.getListQuote().get(0).getP
+        String percentageChange30 = String.format("%.2f", dataItem.getListQuote().get(0).getPercentChange30d());
+        String high24 = setDecimal(dataItem.getHigh24h());
+        String low24 = setDecimal(dataItem.getLow2
