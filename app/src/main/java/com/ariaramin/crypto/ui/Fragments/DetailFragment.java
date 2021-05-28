@@ -77,4 +77,7 @@ public class DetailFragment extends Fragment {
         String percentageChange7 = String.format("%.2f", dataItem.getListQuote().get(0).getPercentChange7d());
         String percentageChange30 = String.format("%.2f", dataItem.getListQuote().get(0).getPercentChange30d());
         String high24 = setDecimal(dataItem.getHigh24h());
-        String low24 = setDecimal(dataItem.getLow2
+        String low24 = setDecimal(dataItem.getLow24h());
+        String ath = setDecimal(dataItem.getAth());
+        String atl = setDecimal(dataItem.getAtl());
+        String tot
