@@ -80,4 +80,7 @@ public class DetailFragment extends Fragment {
         String low24 = setDecimal(dataItem.getLow24h());
         String ath = setDecimal(dataItem.getAth());
         String atl = setDecimal(dataItem.getAtl());
-        String tot
+        String totalSupply = dataItem.getTotalSupply().toString().split("\\.")[0];
+
+        detailValuesArray.add(dataItem.getName());
+        detailValuesArray
