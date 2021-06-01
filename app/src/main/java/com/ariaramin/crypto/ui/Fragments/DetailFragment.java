@@ -83,4 +83,7 @@ public class DetailFragment extends Fragment {
         String totalSupply = dataItem.getTotalSupply().toString().split("\\.")[0];
 
         detailValuesArray.add(dataItem.getName());
-        detailValuesArray
+        detailValuesArray.add("$" + marketCap);
+        detailValuesArray.add("$" + volume24);
+        detailValuesArray.add(dominance);
+        deta
