@@ -89,4 +89,7 @@ public class DetailFragment extends Fragment {
         detailValuesArray.add(percentageChange7);
         detailValuesArray.add(percentageChange30);
         detailValuesArray.add(high24);
-      
+        detailValuesArray.add(low24);
+        detailValuesArray.add(ath);
+        detailValuesArray.add(atl);
+        detailValuesArray.add(
