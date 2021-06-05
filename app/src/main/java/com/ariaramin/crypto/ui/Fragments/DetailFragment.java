@@ -92,4 +92,9 @@ public class DetailFragment extends Fragment {
         detailValuesArray.add(low24);
         detailValuesArray.add(ath);
         detailValuesArray.add(atl);
-        detailValuesArray.add(
+        detailValuesArray.add(totalSupply);
+    }
+
+    private String setDecimal(double price) {
+        if (price < 1) {
+            return String.format
