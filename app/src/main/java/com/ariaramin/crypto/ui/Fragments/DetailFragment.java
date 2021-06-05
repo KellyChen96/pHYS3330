@@ -97,4 +97,8 @@ public class DetailFragment extends Fragment {
 
     private String setDecimal(double price) {
         if (price < 1) {
-            return String.format
+            return String.format("$%.8f", price);
+        } else if (price < 10) {
+            return String.format("$%.6f", price);
+        } else {
+            retu
