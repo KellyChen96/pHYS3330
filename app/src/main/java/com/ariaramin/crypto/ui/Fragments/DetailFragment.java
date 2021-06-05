@@ -86,4 +86,7 @@ public class DetailFragment extends Fragment {
         detailValuesArray.add("$" + marketCap);
         detailValuesArray.add("$" + volume24);
         detailValuesArray.add(dominance);
-        deta
+        detailValuesArray.add(percentageChange7);
+        detailValuesArray.add(percentageChange30);
+        detailValuesArray.add(high24);
+      
