@@ -101,4 +101,11 @@ public class DetailFragment extends Fragment {
         } else if (price < 10) {
             return String.format("$%.6f", price);
         } else {
-            retu
+            return String.format("$%.4f", price);
+        }
+    }
+
+    private void fillDetailKeys() {
+        detailKeysArray = new ArrayList<>();
+
+       
