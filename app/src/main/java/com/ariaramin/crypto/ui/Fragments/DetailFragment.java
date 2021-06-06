@@ -113,4 +113,7 @@ public class DetailFragment extends Fragment {
         detailKeysArray.add("Volume 24h");
         detailKeysArray.add("Dominance");
         detailKeysArray.add("PercentChange 7d");
-        detailKeysArray.add("PercentCh
+        detailKeysArray.add("PercentChange 30d");
+        detailKeysArray.add("High 24h");
+        detailKeysArray.add("Low 24h");
+        detailKeysArray.add("All T
