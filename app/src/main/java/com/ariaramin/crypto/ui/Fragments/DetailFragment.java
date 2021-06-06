@@ -111,3 +111,6 @@ public class DetailFragment extends Fragment {
         detailKeysArray.add("Name");
         detailKeysArray.add("Market Cap");
         detailKeysArray.add("Volume 24h");
+        detailKeysArray.add("Dominance");
+        detailKeysArray.add("PercentChange 7d");
+        detailKeysArray.add("PercentCh
