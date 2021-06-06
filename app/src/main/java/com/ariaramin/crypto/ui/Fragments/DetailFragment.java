@@ -108,4 +108,6 @@ public class DetailFragment extends Fragment {
     private void fillDetailKeys() {
         detailKeysArray = new ArrayList<>();
 
-       
+        detailKeysArray.add("Name");
+        detailKeysArray.add("Market Cap");
+        detailKeysArray.add("Volume 24h");
