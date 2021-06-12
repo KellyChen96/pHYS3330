@@ -121,4 +121,6 @@ public class DetailFragment extends Fragment {
         detailKeysArray.add("Total Supply");
     }
 
-    priva
+    private void setupDetail(DataItem dataItem) {
+        detailBinding.detailSymbolTextView.setText(dataItem.getSymbol());
+        loadCoinLogo(dataItem);
