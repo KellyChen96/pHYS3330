@@ -124,3 +124,9 @@ public class DetailFragment extends Fragment {
     private void setupDetail(DataItem dataItem) {
         detailBinding.detailSymbolTextView.setText(dataItem.getSymbol());
         loadCoinLogo(dataItem);
+        setPriceDecimal(dataItem);
+        setChange(dataItem);
+    }
+
+    private void loadCoinLogo(DataItem dataItem) {
+        G
