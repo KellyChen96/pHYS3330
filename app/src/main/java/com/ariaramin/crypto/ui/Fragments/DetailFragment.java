@@ -116,4 +116,9 @@ public class DetailFragment extends Fragment {
         detailKeysArray.add("PercentChange 30d");
         detailKeysArray.add("High 24h");
         detailKeysArray.add("Low 24h");
-        detailKeysArray.add("All T
+        detailKeysArray.add("All Time High");
+        detailKeysArray.add("All Time Low");
+        detailKeysArray.add("Total Supply");
+    }
+
+    priva
