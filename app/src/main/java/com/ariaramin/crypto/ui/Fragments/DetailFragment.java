@@ -132,4 +132,7 @@ public class DetailFragment extends Fragment {
         Glide.with(detailBinding.getRoot().getContext())
                 .load("https://s2.coinmarketcap.com/static/img/coins/64x64/" + dataItem.getId() + ".png")
                 .thumbnail(
-                        Glide.with(detailBinding.getRoot().get
+                        Glide.with(detailBinding.getRoot().getContext())
+                                .load(R.drawable.spinner))
+                .into(detailBinding.detailImageView);
+    
