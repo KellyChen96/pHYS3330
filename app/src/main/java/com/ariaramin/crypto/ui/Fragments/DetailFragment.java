@@ -130,4 +130,6 @@ public class DetailFragment extends Fragment {
 
     private void loadCoinLogo(DataItem dataItem) {
         Glide.with(detailBinding.getRoot().getContext())
-                .load("https://s2.coinmarketcap.com/static/img/coins/64x64/" + d
+                .load("https://s2.coinmarketcap.com/static/img/coins/64x64/" + dataItem.getId() + ".png")
+                .thumbnail(
+                        Glide.with(detailBinding.getRoot().get
