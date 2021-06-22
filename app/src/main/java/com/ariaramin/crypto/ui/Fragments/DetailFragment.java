@@ -135,4 +135,8 @@ public class DetailFragment extends Fragment {
                         Glide.with(detailBinding.getRoot().getContext())
                                 .load(R.drawable.spinner))
                 .into(detailBinding.detailImageView);
-    
+    }
+
+    private void setPriceDecimal(DataItem dataItem) {
+        if (dataItem.getListQuote().get(0).getPrice() < 1) {
+            detailBinding.de
