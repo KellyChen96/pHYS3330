@@ -140,4 +140,5 @@ public class DetailFragment extends Fragment {
     private void setPriceDecimal(DataItem dataItem) {
         if (dataItem.getListQuote().get(0).getPrice() < 1) {
             detailBinding.detailPriceTextView.setText(String.format("$%.8f", dataItem.getListQuote().get(0).getPrice()));
-        } else if
+        } else if (dataItem.getListQuote().get(0).getPrice() < 10) {
+            detailBinding.detailPriceTextView.setText(String.format("$%.6f", dataI
