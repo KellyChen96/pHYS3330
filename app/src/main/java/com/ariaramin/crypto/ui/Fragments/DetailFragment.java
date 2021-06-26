@@ -149,4 +149,6 @@ public class DetailFragment extends Fragment {
 
     private void setChange(DataItem dataItem) {
         if (dataItem.getListQuote().get(0).getPercentChange24h() < 0) {
-            int red = detailBinding.ge
+            int red = detailBinding.getRoot().getContext().getResources().getColor(R.color.red);
+            detailBinding.detailChangeTextView.setTextColor(red);
+ 
