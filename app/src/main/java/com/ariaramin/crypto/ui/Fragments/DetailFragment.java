@@ -147,4 +147,6 @@ public class DetailFragment extends Fragment {
         }
     }
 
-    private void setChange(DataItem da
+    private void setChange(DataItem dataItem) {
+        if (dataItem.getListQuote().get(0).getPercentChange24h() < 0) {
+            int red = detailBinding.ge
