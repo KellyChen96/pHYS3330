@@ -155,4 +155,6 @@ public class DetailFragment extends Fragment {
             detailBinding.detailChangeTextView.setText(String.format("%.2f", dataItem.getListQuote().get(0).getPercentChange24h()) + "%");
         } else {
             int green = detailBinding.getRoot().getContext().getResources().getColor(R.color.green);
-            detailBinding.detailChangeTextView.setTextCo
+            detailBinding.detailChangeTextView.setTextColor(green);
+            detailBinding.detailChangeImageView.setImageResource(R.drawable.ic_caret_up);
+            detailBinding.detai
