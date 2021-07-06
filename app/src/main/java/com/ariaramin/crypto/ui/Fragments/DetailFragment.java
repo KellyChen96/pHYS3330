@@ -161,4 +161,8 @@ public class DetailFragment extends Fragment {
         }
     }
 
- 
+    private void addToWatchlist(DataItem dataItem) {
+
+        readData();
+
+        if (watchlist.contains(dataItem.getSymbol())) 
