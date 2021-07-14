@@ -170,4 +170,9 @@ public class DetailFragment extends Fragment {
             watchlistIsChecked = true;
         } else {
             detailBinding.addWatchlistButton.setImageResource(R.drawable.ic_star_outline);
-            watchlistIsChec
+            watchlistIsChecked = false;
+        }
+
+        detailBinding.addWatchlistButton.setOnClickListener(v -> {
+            if (!watchlistIsChecked) {
+              
