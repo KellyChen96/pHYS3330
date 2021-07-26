@@ -180,4 +180,7 @@ public class DetailFragment extends Fragment {
                 }
                 storeData();
                 detailBinding.addWatchlistButton.setImageResource(R.drawable.ic_star);
-                watchlistIsChecked = t
+                watchlistIsChecked = true;
+            } else {
+                detailBinding.addWatchlistButton.setImageResource(R.drawable.ic_star_outline);
+              
