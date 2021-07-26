@@ -178,4 +178,6 @@ public class DetailFragment extends Fragment {
                 if (!watchlist.contains(dataItem.getSymbol())) {
                     watchlist.add(dataItem.getSymbol());
                 }
-             
+                storeData();
+                detailBinding.addWatchlistButton.setImageResource(R.drawable.ic_star);
+                watchlistIsChecked = t
