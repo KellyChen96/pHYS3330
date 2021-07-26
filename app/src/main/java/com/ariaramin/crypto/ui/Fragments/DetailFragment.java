@@ -175,4 +175,7 @@ public class DetailFragment extends Fragment {
 
         detailBinding.addWatchlistButton.setOnClickListener(v -> {
             if (!watchlistIsChecked) {
-              
+                if (!watchlist.contains(dataItem.getSymbol())) {
+                    watchlist.add(dataItem.getSymbol());
+                }
+             
