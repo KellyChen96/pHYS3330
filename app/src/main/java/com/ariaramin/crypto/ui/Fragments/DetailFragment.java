@@ -186,4 +186,9 @@ public class DetailFragment extends Fragment {
                 watchlist.remove(dataItem.getSymbol());
                 storeData();
                 watchlistIsChecked = false;
-     
+            }
+        });
+    }
+
+    private void readData() {
+        SharedPreferences sharedPreferences = requireContext().getSharedPreferences("w
