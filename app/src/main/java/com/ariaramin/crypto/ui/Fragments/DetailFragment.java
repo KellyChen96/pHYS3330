@@ -193,4 +193,7 @@ public class DetailFragment extends Fragment {
     private void readData() {
         SharedPreferences sharedPreferences = requireContext().getSharedPreferences("watchlist", Context.MODE_PRIVATE);
         Gson gson = new Gson();
-        String json = sharedPreferences.getString("watchlist",
+        String json = sharedPreferences.getString("watchlist", String.valueOf(new ArrayList<String>()));
+        Type type = new TypeToken<ArrayList<String>>() {
+        }.getType();
+        
