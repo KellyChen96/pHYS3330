@@ -196,4 +196,8 @@ public class DetailFragment extends Fragment {
         String json = sharedPreferences.getString("watchlist", String.valueOf(new ArrayList<String>()));
         Type type = new TypeToken<ArrayList<String>>() {
         }.getType();
-        
+        watchlist = gson.fromJson(json, type);
+    }
+
+    private void storeData() {
+        SharedPreferences sharedPreferences = requireConte
