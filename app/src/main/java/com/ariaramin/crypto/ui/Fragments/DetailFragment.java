@@ -200,4 +200,6 @@ public class DetailFragment extends Fragment {
     }
 
     private void storeData() {
-        SharedPreferences sharedPreferences = requireConte
+        SharedPreferences sharedPreferences = requireContext().getSharedPreferences("watchlist", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        Gson gson = n
