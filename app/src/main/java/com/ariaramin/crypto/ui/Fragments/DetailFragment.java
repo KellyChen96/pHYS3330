@@ -206,3 +206,7 @@ public class DetailFragment extends Fragment {
         String json = gson.toJson(watchlist);
         editor.putString("watchlist", json);
         editor.apply();
+    }
+
+    private void setButtonsClickListener(DataItem dataItem) {
+        Button oneMonth = detai
