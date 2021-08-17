@@ -212,4 +212,6 @@ public class DetailFragment extends Fragment {
         Button oneMonth = detailBinding.button;
         Button oneWeek = detailBinding.button1;
         Button oneDay = detailBinding.button2;
-        Button fourHour
+        Button fourHour = detailBinding.button3;
+        Button oneHour = detailBinding.button4;
+        Button fifteenMin = detailBinding.button5
