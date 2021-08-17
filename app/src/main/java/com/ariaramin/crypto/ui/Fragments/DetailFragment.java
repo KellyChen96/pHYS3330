@@ -209,4 +209,7 @@ public class DetailFragment extends Fragment {
     }
 
     private void setButtonsClickListener(DataItem dataItem) {
-        Button oneMonth = detai
+        Button oneMonth = detailBinding.button;
+        Button oneWeek = detailBinding.button1;
+        Button oneDay = detailBinding.button2;
+        Button fourHour
