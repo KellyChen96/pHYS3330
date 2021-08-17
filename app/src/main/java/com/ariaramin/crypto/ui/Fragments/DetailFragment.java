@@ -214,4 +214,7 @@ public class DetailFragment extends Fragment {
         Button oneDay = detailBinding.button2;
         Button fourHour = detailBinding.button3;
         Button oneHour = detailBinding.button4;
-        Button fifteenMin = detailBinding.button5
+        Button fifteenMin = detailBinding.button5;
+        View.OnClickListener clickListener = v -> {
+            if (v.getId() == fifteenMin.getId()) {
+                
