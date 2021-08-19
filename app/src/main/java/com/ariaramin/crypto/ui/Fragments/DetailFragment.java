@@ -217,4 +217,5 @@ public class DetailFragment extends Fragment {
         Button fifteenMin = detailBinding.button5;
         View.OnClickListener clickListener = v -> {
             if (v.getId() == fifteenMin.getId()) {
-                
+                loadChart(v, "15", dataItem, oneMonth, oneWeek, oneDay, fourHour, oneHour);
+            } else if (v.getId() == oneHour.getId()) {
