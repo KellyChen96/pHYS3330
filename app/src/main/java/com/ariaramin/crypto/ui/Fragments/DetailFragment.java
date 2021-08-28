@@ -220,4 +220,5 @@ public class DetailFragment extends Fragment {
                 loadChart(v, "15", dataItem, oneMonth, oneWeek, oneDay, fourHour, oneHour);
             } else if (v.getId() == oneHour.getId()) {
                 loadChart(v, "1H", dataItem, oneMonth, oneWeek, oneDay, fourHour, fifteenMin);
-            } else i
+            } else if (v.getId() == fourHour.getId()) {
+                loadChart(v, "4H", dataItem, oneMonth, oneWeek, oneDay, oneHour, fifteenMin)
