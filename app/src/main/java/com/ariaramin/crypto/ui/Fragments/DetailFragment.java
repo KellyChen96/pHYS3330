@@ -227,4 +227,7 @@ public class DetailFragment extends Fragment {
             } else if (v.getId() == oneWeek.getId()) {
                 loadChart(v, "W", dataItem, oneMonth, oneDay, fourHour, oneHour, fifteenMin);
             } else if (v.getId() == oneMonth.getId()) {
-                loadC
+                loadChart(v, "M", dataItem, oneWeek, oneDay, fourHour, oneHour, fifteenMin);
+            }
+        };
+        oneMonth.setOnClickList
