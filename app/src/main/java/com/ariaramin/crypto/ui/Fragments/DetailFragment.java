@@ -230,4 +230,7 @@ public class DetailFragment extends Fragment {
                 loadChart(v, "M", dataItem, oneWeek, oneDay, fourHour, oneHour, fifteenMin);
             }
         };
-        oneMonth.setOnClickList
+        oneMonth.setOnClickListener(clickListener);
+        oneWeek.setOnClickListener(clickListener);
+        oneDay.setOnClickListener(clickListener);
+  
