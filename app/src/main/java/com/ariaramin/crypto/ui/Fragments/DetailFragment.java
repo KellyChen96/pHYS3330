@@ -233,4 +233,6 @@ public class DetailFragment extends Fragment {
         oneMonth.setOnClickListener(clickListener);
         oneWeek.setOnClickListener(clickListener);
         oneDay.setOnClickListener(clickListener);
-  
+        fourHour.setOnClickListener(clickListener);
+        oneHour.setOnClickListener(clickListener);
+        fifteenMin.setOnClickListener(
