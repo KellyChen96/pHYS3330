@@ -235,4 +235,7 @@ public class DetailFragment extends Fragment {
         oneDay.setOnClickListener(clickListener);
         fourHour.setOnClickListener(clickListener);
         oneHour.setOnClickListener(clickListener);
-        fifteenMin.setOnClickListener(
+        fifteenMin.setOnClickListener(clickListener);
+    }
+
+    public void loadChart(View view, String interval, DataItem dataItem, Button btn, Button b
