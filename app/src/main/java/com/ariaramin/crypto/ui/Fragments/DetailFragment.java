@@ -240,4 +240,6 @@ public class DetailFragment extends Fragment {
 
     public void loadChart(View view, String interval, DataItem dataItem, Button btn, Button btn2, Button btn3, Button btn4, Button btn5) {
         disableAllButton(btn, btn2, btn3, btn4, btn5);
-        WebView webView = 
+        WebView webView = detailBinding.detaillChartWebView;
+        view.setBackgroundResource(R.drawable.active_button);
+        webView.getSettings().setJ
