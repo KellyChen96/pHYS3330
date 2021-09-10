@@ -244,4 +244,4 @@ public class DetailFragment extends Fragment {
         view.setBackgroundResource(R.drawable.active_button);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
-        webView.loadUrl("https://s.tradi
+        webView.loadUrl("https://s.tradingview.com/widgetembed/?frameElementId=tradingview_76d87&symbol=" + dataItem.getSymbol() + "USD&interval=" + interval + "&hidesidetoolbar=1&h
