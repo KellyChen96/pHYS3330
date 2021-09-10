@@ -242,4 +242,6 @@ public class DetailFragment extends Fragment {
         disableAllButton(btn, btn2, btn3, btn4, btn5);
         WebView webView = detailBinding.detaillChartWebView;
         view.setBackgroundResource(R.drawable.active_button);
-        webView.getSettings().setJ
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
+        webView.loadUrl("https://s.tradi
