@@ -250,4 +250,4 @@ public class DetailFragment extends Fragment {
     private void loadChart(DataItem dataItem) {
         detailBinding.detaillChartWebView.getSettings().setJavaScriptEnabled(true);
         detailBinding.detaillChartWebView.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
-        detailBinding.detaillChartWebView.loadUrl("https://s.tradingview.com/widgetembed/?f
+        detailBinding.detaillChartWebView.loadUrl("https://s.tradingview.com/widgetembed/?frameElementId=tradingview_76d87&symbol=" + dataItem.getSymbol() + "USD&interval=D&hidesidetoolbar=1&hidetoptoolbar=1&sym
