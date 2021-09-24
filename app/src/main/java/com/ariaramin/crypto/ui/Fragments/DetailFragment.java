@@ -249,4 +249,5 @@ public class DetailFragment extends Fragment {
 
     private void loadChart(DataItem dataItem) {
         detailBinding.detaillChartWebView.getSettings().setJavaScriptEnabled(true);
-        detailBinding.detaillChartWebView.setLaye
+        detailBinding.detaillChartWebView.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
+        detailBinding.detaillChartWebView.loadUrl("https://s.tradingview.com/widgetembed/?f
