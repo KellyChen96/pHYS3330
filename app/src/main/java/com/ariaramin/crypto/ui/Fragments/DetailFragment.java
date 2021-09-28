@@ -254,4 +254,8 @@ public class DetailFragment extends Fragment {
     }
 
     public void disableAllButton(Button btn, Button btn2, Button btn3, Button btn4, Button btn5) {
-        b
+        btn.setBackground(null);
+        btn2.setBackground(null);
+        btn3.setBackground(null);
+        btn4.setBackground(null);
+        btn5.s
