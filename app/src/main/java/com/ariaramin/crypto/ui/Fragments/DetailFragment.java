@@ -264,4 +264,6 @@ public class DetailFragment extends Fragment {
     @Override
     public void onDestroy() {
         super.onDestroy();
-        mainActivity.smoothBottomBar.setVisibility(V
+        mainActivity.smoothBottomBar.setVisibility(View.VISIBLE);
+    }
+}
