@@ -258,4 +258,10 @@ public class DetailFragment extends Fragment {
         btn2.setBackground(null);
         btn3.setBackground(null);
         btn4.setBackground(null);
-        btn5.s
+        btn5.setBackground(null);
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        mainActivity.smoothBottomBar.setVisibility(V
