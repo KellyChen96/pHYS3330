@@ -11,4 +11,8 @@ import androidx.viewpager2.widget.ViewPager2;
 
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGrou
+import android.view.ViewGroup;
+
+import com.ariaramin.crypto.Adapters.SliderAdapter;
+import com.ariaramin.crypto.Adapters.TopCurrencyAdapter;
+import com.ariar
