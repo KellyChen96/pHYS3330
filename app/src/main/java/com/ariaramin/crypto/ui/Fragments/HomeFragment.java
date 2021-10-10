@@ -15,4 +15,7 @@ import android.view.ViewGroup;
 
 import com.ariaramin.crypto.Adapters.SliderAdapter;
 import com.ariaramin.crypto.Adapters.TopCurrencyAdapter;
-import com.ariar
+import com.ariaramin.crypto.Adapters.TopGainLosePagerAdapter;
+import com.ariaramin.crypto.MainActivity;
+import com.ariaramin.crypto.Models.DataItem;
+import com.ar
