@@ -18,4 +18,7 @@ import com.ariaramin.crypto.Adapters.TopCurrencyAdapter;
 import com.ariaramin.crypto.Adapters.TopGainLosePagerAdapter;
 import com.ariaramin.crypto.MainActivity;
 import com.ariaramin.crypto.Models.DataItem;
-import com.ar
+import com.ariaramin.crypto.R;
+import com.ariaramin.crypto.MainViewModel;
+import com.ariaramin.crypto.databinding.FragmentHomeBinding;
+import com.go
