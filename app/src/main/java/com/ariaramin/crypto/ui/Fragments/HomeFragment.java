@@ -21,4 +21,5 @@ import com.ariaramin.crypto.Models.DataItem;
 import com.ariaramin.crypto.R;
 import com.ariaramin.crypto.MainViewModel;
 import com.ariaramin.crypto.databinding.FragmentHomeBinding;
-import com.go
+import com.google.android.material.tabs.TabLayoutMediator;
+import com.smarteist.autoimageslider.IndicatorView.animation.type.IndicatorAnim
