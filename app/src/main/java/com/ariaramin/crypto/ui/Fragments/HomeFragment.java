@@ -22,4 +22,9 @@ import com.ariaramin.crypto.R;
 import com.ariaramin.crypto.MainViewModel;
 import com.ariaramin.crypto.databinding.FragmentHomeBinding;
 import com.google.android.material.tabs.TabLayoutMediator;
-import com.smarteist.autoimageslider.IndicatorView.animation.type.IndicatorAnim
+import com.smarteist.autoimageslider.IndicatorView.animation.type.IndicatorAnimationType;
+import com.smarteist.autoimageslider.SliderAnimations;
+
+import java.util.List;
+
+import dagger.hilt.android.Android
