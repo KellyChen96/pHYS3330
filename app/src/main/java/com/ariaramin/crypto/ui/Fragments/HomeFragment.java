@@ -27,4 +27,6 @@ import com.smarteist.autoimageslider.SliderAnimations;
 
 import java.util.List;
 
-import dagger.hilt.android.Android
+import dagger.hilt.android.AndroidEntryPoint;
+import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
+import io.reactivex.rxjava3.disposables.CompositeDispo
