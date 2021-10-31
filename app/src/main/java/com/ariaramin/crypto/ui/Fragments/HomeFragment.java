@@ -38,4 +38,8 @@ public class HomeFragment extends Fragment {
 
     FragmentHomeBinding homeBinding;
     MainActivity mainActivity;
-    Ma
+    MainViewModel mainViewModel;
+    CompositeDisposable compositeDisposable;
+
+    @Override
+    public void onAttach(@NonNu
