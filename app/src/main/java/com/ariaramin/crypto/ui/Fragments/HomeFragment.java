@@ -47,4 +47,6 @@ public class HomeFragment extends Fragment {
         mainActivity = (MainActivity) context;
     }
 
-    @Overri
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState
