@@ -42,4 +42,9 @@ public class HomeFragment extends Fragment {
     CompositeDisposable compositeDisposable;
 
     @Override
-    public void onAttach(@NonNu
+    public void onAttach(@NonNull Context context) {
+        super.onAttach(context);
+        mainActivity = (MainActivity) context;
+    }
+
+    @Overri
