@@ -51,4 +51,6 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        homeBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_home, co
+        homeBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_home, container, false);
+        mainViewModel = new ViewModelProvider(requireActivity()).get(MainViewModel.class);
+        compositeDispos
