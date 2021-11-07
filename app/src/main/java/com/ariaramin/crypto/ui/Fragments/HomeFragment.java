@@ -53,4 +53,9 @@ public class HomeFragment extends Fragment {
         // Inflate the layout for this fragment
         homeBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_home, container, false);
         mainViewModel = new ViewModelProvider(requireActivity()).get(MainViewModel.class);
-        compositeDispos
+        compositeDisposable = new CompositeDisposable();
+
+        getAllMarket();
+        setupViewPager();
+        setupTabLayout();
+        return homeBind
