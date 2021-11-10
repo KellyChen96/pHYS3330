@@ -58,4 +58,8 @@ public class HomeFragment extends Fragment {
         getAllMarket();
         setupViewPager();
         setupTabLayout();
-        return homeBind
+        return homeBinding.getRoot();
+    }
+
+    private void setupTabLayout() {
+        TopGainLosePagerAdapter topGainLosePagerAdapter = new T
