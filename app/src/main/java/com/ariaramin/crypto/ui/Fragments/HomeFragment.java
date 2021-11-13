@@ -62,4 +62,7 @@ public class HomeFragment extends Fragment {
     }
 
     private void setupTabLayout() {
-        TopGainLosePagerAdapter topGainLosePagerAdapter = new T
+        TopGainLosePagerAdapter topGainLosePagerAdapter = new TopGainLosePagerAdapter(this);
+        homeBinding.contentViewPager.setAdapter(topGainLosePagerAdapter);
+
+        homeBinding.contentViewPager.regis
