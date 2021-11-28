@@ -73,4 +73,6 @@ public class HomeFragment extends Fragment {
                 if (position == 0) {
                     homeBinding.topGainIndicator.setVisibility(View.VISIBLE);
                     homeBinding.topLoseIndicator.setVisibility(View.GONE);
-        
+                } else {
+                    homeBinding.topGainIndicator.setVisibility(View.GONE);
+                    homeBinding.topLos
