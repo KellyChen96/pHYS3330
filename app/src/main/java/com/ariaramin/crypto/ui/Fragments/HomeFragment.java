@@ -71,4 +71,6 @@ public class HomeFragment extends Fragment {
                 super.onPageSelected(position);
 
                 if (position == 0) {
-                    homeBind
+                    homeBinding.topGainIndicator.setVisibility(View.VISIBLE);
+                    homeBinding.topLoseIndicator.setVisibility(View.GONE);
+        
