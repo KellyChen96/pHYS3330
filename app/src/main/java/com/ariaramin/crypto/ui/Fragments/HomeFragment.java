@@ -65,4 +65,6 @@ public class HomeFragment extends Fragment {
         TopGainLosePagerAdapter topGainLosePagerAdapter = new TopGainLosePagerAdapter(this);
         homeBinding.contentViewPager.setAdapter(topGainLosePagerAdapter);
 
-        homeBinding.contentViewPager.regis
+        homeBinding.contentViewPager.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
+            @Override
+            public void onPageSelected(int position
