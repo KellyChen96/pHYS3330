@@ -67,4 +67,8 @@ public class HomeFragment extends Fragment {
 
         homeBinding.contentViewPager.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
             @Override
-            public void onPageSelected(int position
+            public void onPageSelected(int position) {
+                super.onPageSelected(position);
+
+                if (position == 0) {
+                    homeBind
