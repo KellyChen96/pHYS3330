@@ -75,4 +75,9 @@ public class HomeFragment extends Fragment {
                     homeBinding.topLoseIndicator.setVisibility(View.GONE);
                 } else {
                     homeBinding.topGainIndicator.setVisibility(View.GONE);
-                    homeBinding.topLos
+                    homeBinding.topLoseIndicator.setVisibility(View.VISIBLE);
+                }
+            }
+        });
+
+        new TabLayoutMediator(homeBinding.tabLayou
