@@ -85,4 +85,9 @@ public class HomeFragment extends Fragment {
             if (position == 0) {
                 title = requireContext().getResources().getString(R.string.top_gainers);
             } else {
-                title = requi
+                title = requireContext().getResources().getString(R.string.top_losers);
+            }
+            tab.setText(title);
+        }).attach();
+    }
+
