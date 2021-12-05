@@ -91,3 +91,6 @@ public class HomeFragment extends Fragment {
         }).attach();
     }
 
+    private void getAllMarket() {
+        Disposable disposable = mainViewModel.getAllMarketEntity()
+                .subscribeOn(Sched
