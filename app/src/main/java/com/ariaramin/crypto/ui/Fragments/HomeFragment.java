@@ -83,4 +83,6 @@ public class HomeFragment extends Fragment {
         new TabLayoutMediator(homeBinding.tabLayout, homeBinding.contentViewPager, (tab, position) -> {
             String title;
             if (position == 0) {
-                title
+                title = requireContext().getResources().getString(R.string.top_gainers);
+            } else {
+                title = requi
