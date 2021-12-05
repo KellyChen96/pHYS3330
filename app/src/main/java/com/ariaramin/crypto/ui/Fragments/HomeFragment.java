@@ -80,4 +80,7 @@ public class HomeFragment extends Fragment {
             }
         });
 
-        new TabLayoutMediator(homeBinding.tabLayou
+        new TabLayoutMediator(homeBinding.tabLayout, homeBinding.contentViewPager, (tab, position) -> {
+            String title;
+            if (position == 0) {
+                title
