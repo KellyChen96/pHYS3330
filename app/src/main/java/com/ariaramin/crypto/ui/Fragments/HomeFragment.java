@@ -93,4 +93,7 @@ public class HomeFragment extends Fragment {
 
     private void getAllMarket() {
         Disposable disposable = mainViewModel.getAllMarketEntity()
-                .subscribeOn(Sched
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(allMarketEntity -> {
+                   
