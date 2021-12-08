@@ -100,4 +100,6 @@ public class HomeFragment extends Fragment {
 
                     if (homeBinding.topCurrencyRecyclerView.getAdapter() == null) {
                         TopCurrencyAdapter topCurrencyAdapter = new TopCurrencyAdapter(dataItems);
-                        homeBinding.topCurrencyRecyclerView.setAdapter(
+                        homeBinding.topCurrencyRecyclerView.setAdapter(topCurrencyAdapter);
+                    } else {
+                        TopCurrencyAdapter topCurrencyAdapter = (TopCurrency
