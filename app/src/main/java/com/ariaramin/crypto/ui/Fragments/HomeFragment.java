@@ -99,4 +99,5 @@ public class HomeFragment extends Fragment {
                     List<DataItem> dataItems = allMarketEntity.getAllMarket().getData().getCryptoCurrencyList().subList(0, 10);
 
                     if (homeBinding.topCurrencyRecyclerView.getAdapter() == null) {
-                        TopCurrencyAdapt
+                        TopCurrencyAdapter topCurrencyAdapter = new TopCurrencyAdapter(dataItems);
+                        homeBinding.topCurrencyRecyclerView.setAdapter(
