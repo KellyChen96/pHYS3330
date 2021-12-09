@@ -104,3 +104,9 @@ public class HomeFragment extends Fragment {
                     } else {
                         TopCurrencyAdapter topCurrencyAdapter = (TopCurrencyAdapter) homeBinding.topCurrencyRecyclerView.getAdapter();
                         topCurrencyAdapter.updateList(dataItems);
+                    }
+                });
+        compositeDisposable.add(disposable);
+    }
+
+    private void setu
