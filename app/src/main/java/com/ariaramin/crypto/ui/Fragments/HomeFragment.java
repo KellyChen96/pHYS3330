@@ -109,4 +109,6 @@ public class HomeFragment extends Fragment {
         compositeDisposable.add(disposable);
     }
 
-    private void setu
+    private void setupViewPager() {
+        mainViewModel.getSliderData().observe(requireActivity(), integers -> {
+            SliderAdapter sliderAdapter = new Slide
