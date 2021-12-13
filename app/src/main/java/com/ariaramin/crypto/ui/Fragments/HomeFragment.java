@@ -111,4 +111,6 @@ public class HomeFragment extends Fragment {
 
     private void setupViewPager() {
         mainViewModel.getSliderData().observe(requireActivity(), integers -> {
-            SliderAdapter sliderAdapter = new Slide
+            SliderAdapter sliderAdapter = new SliderAdapter(integers);
+            homeBinding.sliderView.setSliderAdapter(sliderAdapter);
+            homeBinding.sliderView.setI
