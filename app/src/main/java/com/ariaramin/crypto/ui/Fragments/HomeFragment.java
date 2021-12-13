@@ -113,4 +113,5 @@ public class HomeFragment extends Fragment {
         mainViewModel.getSliderData().observe(requireActivity(), integers -> {
             SliderAdapter sliderAdapter = new SliderAdapter(integers);
             homeBinding.sliderView.setSliderAdapter(sliderAdapter);
-            homeBinding.sliderView.setI
+            homeBinding.sliderView.setIndicatorAnimation(IndicatorAnimationType.WORM);
+            homeBinding.sliderView.setSliderTransformAnimation(Slider
