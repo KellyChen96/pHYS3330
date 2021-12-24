@@ -114,4 +114,6 @@ public class HomeFragment extends Fragment {
             SliderAdapter sliderAdapter = new SliderAdapter(integers);
             homeBinding.sliderView.setSliderAdapter(sliderAdapter);
             homeBinding.sliderView.setIndicatorAnimation(IndicatorAnimationType.WORM);
-            homeBinding.sliderView.setSliderTransformAnimation(Slider
+            homeBinding.sliderView.setSliderTransformAnimation(SliderAnimations.FADETRANSFORMATION);
+            homeBinding.sliderView.setScrollTimeInSec(5);
+            homeBinding.sliderView.startAutoCycle();
