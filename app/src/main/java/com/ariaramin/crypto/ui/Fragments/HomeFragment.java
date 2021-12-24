@@ -117,3 +117,6 @@ public class HomeFragment extends Fragment {
             homeBinding.sliderView.setSliderTransformAnimation(SliderAnimations.FADETRANSFORMATION);
             homeBinding.sliderView.setScrollTimeInSec(5);
             homeBinding.sliderView.startAutoCycle();
+        });
+    }
+}
