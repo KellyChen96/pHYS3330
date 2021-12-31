@@ -11,4 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.ariaramin.crypto.Adapters.CurrencyAdapter;
-import com.ariaramin.crypto.MainVi
+import com.ariaramin.crypto.MainViewModel;
+import com.ariaramin.crypto.Models.AllMarket;
+import com.ariaramin.crypto.Models.DataItem;
+import com.ariara
