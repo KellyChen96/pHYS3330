@@ -104,3 +104,25 @@ public class MarketFragment extends Fragment {
                                 data.add(item);
                             }
                         }
+                    } else {
+                        data = dataItems;
+                    }
+
+                    if (data.isEmpty()) {
+                        marketBinding.notFoundTextView.setVisibility(View.VISIBLE);
+                    } else {
+                        marketBinding.notFoundTextView.setVisibility(View.GONE);
+                    }
+
+                    if (marketBinding.currencyRecyclerView.getAdapter() == null) {
+                        CurrencyAdapter currencyAdapter = new CurrencyAdapter(TAG, dataItems);
+                        marketBinding.currencyRecyclerView.setAdapter(currencyAdapter);
+                    } else {
+                        CurrencyAdapter currencyAdapter = (CurrencyAdapter) marketBinding.currencyRecyclerView.getAdapter();
+                        currencyAdapter.updateList(data);
+                    }
+                });
+
+        compositeDisposable.add(disposable);
+    }
+}
