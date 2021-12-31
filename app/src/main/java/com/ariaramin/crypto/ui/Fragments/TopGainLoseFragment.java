@@ -14,4 +14,6 @@ import com.ariaramin.crypto.Adapters.CurrencyAdapter;
 import com.ariaramin.crypto.MainViewModel;
 import com.ariaramin.crypto.Models.AllMarket;
 import com.ariaramin.crypto.Models.DataItem;
-import com.ariara
+import com.ariaramin.crypto.R;
+import com.ariaramin.crypto.Room.Entities.AllMarketEntity;
+import com.ariaramin.crypto.databinding.FragmentTopGai
