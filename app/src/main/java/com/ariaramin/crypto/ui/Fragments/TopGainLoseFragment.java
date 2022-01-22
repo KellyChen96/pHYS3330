@@ -36,3 +36,7 @@ public class TopGainLoseFragment extends Fragment {
     MainViewModel mainViewModel;
     CompositeDisposable compositeDisposable;
     private static final String TAG = "topGainLose";
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceSta
