@@ -33,4 +33,6 @@ import io.reactivex.rxjava3.schedulers.Schedulers;
 public class TopGainLoseFragment extends Fragment {
 
     FragmentTopGainLoseBinding topGainLoseBinding;
-    MainView
+    MainViewModel mainViewModel;
+    CompositeDisposable compositeDisposable;
+    private static final String TAG = "topGainLose";
