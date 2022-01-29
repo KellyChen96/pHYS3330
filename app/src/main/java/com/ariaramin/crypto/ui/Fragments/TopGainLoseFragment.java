@@ -39,4 +39,6 @@ public class TopGainLoseFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceSta
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        topGainLoseBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_
