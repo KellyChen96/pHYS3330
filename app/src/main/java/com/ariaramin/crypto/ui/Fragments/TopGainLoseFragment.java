@@ -44,3 +44,5 @@ public class TopGainLoseFragment extends Fragment {
         topGainLoseBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_top_gain_lose, container, false);
         Bundle args = getArguments();
         int position = args.getInt("position");
+        mainViewModel = new ViewModelProvider(requireActivity()).get(MainViewModel.class);
+        compositeDisposable = new CompositeDisposa
