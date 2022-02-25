@@ -45,4 +45,10 @@ public class TopGainLoseFragment extends Fragment {
         Bundle args = getArguments();
         int position = args.getInt("position");
         mainViewModel = new ViewModelProvider(requireActivity()).get(MainViewModel.class);
-        compositeDisposable = new CompositeDisposa
+        compositeDisposable = new CompositeDisposable();
+
+        setupRecyclerView(position);
+        return topGainLoseBinding.getRoot();
+    }
+
+    private void setu
