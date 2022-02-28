@@ -51,4 +51,6 @@ public class TopGainLoseFragment extends Fragment {
         return topGainLoseBinding.getRoot();
     }
 
-    private void setu
+    private void setupRecyclerView(int pos) {
+        Disposable disposable = mainViewModel.getAllMarketEntity()
+                .subscribe
