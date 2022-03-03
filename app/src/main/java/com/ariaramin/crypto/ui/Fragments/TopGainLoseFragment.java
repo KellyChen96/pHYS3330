@@ -53,4 +53,7 @@ public class TopGainLoseFragment extends Fragment {
 
     private void setupRecyclerView(int pos) {
         Disposable disposable = mainViewModel.getAllMarketEntity()
-                .subscribe
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(allMarketEntity -> {
+            
