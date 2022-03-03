@@ -56,4 +56,5 @@ public class TopGainLoseFragment extends Fragment {
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(allMarketEntity -> {
-            
+                    AllMarket allMarket = allMarketEntity.getAllMarket();
+                    List<DataItem> dataItems = allMarket.getData().getCryptoC
