@@ -68,4 +68,8 @@ public class TopGainLoseFragment extends Fragment {
                     if (pos == 0) {
                         // Get ten first items
                         for (int i = 0; i < 10; i++) {
-                            data.add(dataItems.get(
+                            data.add(dataItems.get(i));
+                        }
+                    } else {
+                        // Get ten last items
+                        for (int i 
