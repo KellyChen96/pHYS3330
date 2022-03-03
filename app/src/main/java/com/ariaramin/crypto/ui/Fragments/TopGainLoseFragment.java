@@ -63,3 +63,7 @@ public class TopGainLoseFragment extends Fragment {
                     Collections.sort(dataItems, (o1, o2) ->
                             Integer.compare((int) o2.getListQuote().get(0).getPercentChange24h(), (int) o1.getListQuote().get(0).getPercentChange24h())
                     );
+
+                    ArrayList<DataItem> data = new ArrayList<>();
+                    if (pos == 0) {
+                        // Get ten f
