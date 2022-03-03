@@ -61,4 +61,5 @@ public class TopGainLoseFragment extends Fragment {
 
                     // Sort data by change
                     Collections.sort(dataItems, (o1, o2) ->
-                            Integ
+                            Integer.compare((int) o2.getListQuote().get(0).getPercentChange24h(), (int) o1.getListQuote().get(0).getPercentChange24h())
+                    );
