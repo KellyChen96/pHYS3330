@@ -66,4 +66,6 @@ public class TopGainLoseFragment extends Fragment {
 
                     ArrayList<DataItem> data = new ArrayList<>();
                     if (pos == 0) {
-                        // Get ten f
+                        // Get ten first items
+                        for (int i = 0; i < 10; i++) {
+                            data.add(dataItems.get(
