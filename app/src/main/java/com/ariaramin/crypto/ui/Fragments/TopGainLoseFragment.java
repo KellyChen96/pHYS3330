@@ -57,4 +57,8 @@ public class TopGainLoseFragment extends Fragment {
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(allMarketEntity -> {
                     AllMarket allMarket = allMarketEntity.getAllMarket();
-                    List<DataItem> dataItems = allMarket.getData().getCryptoC
+                    List<DataItem> dataItems = allMarket.getData().getCryptoCurrencyList();
+
+                    // Sort data by change
+                    Collections.sort(dataItems, (o1, o2) ->
+                            Integ
