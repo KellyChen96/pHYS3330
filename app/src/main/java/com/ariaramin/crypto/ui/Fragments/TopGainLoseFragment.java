@@ -84,3 +84,6 @@ public class TopGainLoseFragment extends Fragment {
                         CurrencyAdapter currencyAdapter = (CurrencyAdapter) topGainLoseBinding.topGainLoseRecyclerView.getAdapter();
                         currencyAdapter.updateList(data);
                     }
+
+                    if (dataItems.isEmpty()) {
+                        topGainLoseBinding.spinKitView.setVisibi
