@@ -97,4 +97,7 @@ public class TopGainLoseFragment extends Fragment {
 
     @Override
     public void onDestroy() {
-        supe
+        super.onDestroy();
+        compositeDisposable.clear();
+    }
+}
