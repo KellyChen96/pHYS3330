@@ -86,4 +86,7 @@ public class TopGainLoseFragment extends Fragment {
                     }
 
                     if (dataItems.isEmpty()) {
-                        topGainLoseBinding.spinKitView.setVisibi
+                        topGainLoseBinding.spinKitView.setVisibility(View.VISIBLE);
+                    } else {
+                        topGainLoseBinding.spinKitView.setVisibility(View.GONE);
+        
