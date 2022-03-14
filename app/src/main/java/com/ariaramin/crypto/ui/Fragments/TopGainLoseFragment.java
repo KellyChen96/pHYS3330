@@ -89,4 +89,12 @@ public class TopGainLoseFragment extends Fragment {
                         topGainLoseBinding.spinKitView.setVisibility(View.VISIBLE);
                     } else {
                         topGainLoseBinding.spinKitView.setVisibility(View.GONE);
-        
+                    }
+                });
+
+        compositeDisposable.add(disposable);
+    }
+
+    @Override
+    public void onDestroy() {
+        supe
