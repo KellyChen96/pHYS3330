@@ -79,4 +79,6 @@ public class TopGainLoseFragment extends Fragment {
 
                     if (topGainLoseBinding.topGainLoseRecyclerView.getAdapter() == null) {
                         CurrencyAdapter currencyAdapter = new CurrencyAdapter(TAG, data);
-                        topGainLoseBinding.topGainLoseRecyclerView.setAdapter(currencyAdapt
+                        topGainLoseBinding.topGainLoseRecyclerView.setAdapter(currencyAdapter);
+                    } else {
+                        CurrencyAdapter currencyAdapter = (CurrencyAdapter) topGainLos
