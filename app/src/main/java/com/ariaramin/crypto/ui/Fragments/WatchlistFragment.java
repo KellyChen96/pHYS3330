@@ -108,3 +108,47 @@ public class WatchlistFragment extends Fragment {
                         @Override
                         public boolean onMove(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder, @NonNull RecyclerView.ViewHolder target) {
                             return false;
+                        }
+
+                        @Override
+                        public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
+                            int position = viewHolder.getAdapterPosition();
+                            String coinName = watchlistItems.get(position).getName();
+                            watchlistItems.remove(position);
+                            watchlist.remove(position);
+                            storeData(watchlist);
+                            watchListBinding.watchlistRecyclerView.getAdapter().notifyItemRemoved(position);
+                            Toast.makeText(mainActivity, coinName+" removed from your watchlist", Toast.LENGTH_SHORT).show();
+                            if (watchlist.isEmpty()) {
+                                watchListBinding.emptyTextView.setVisibility(View.VISIBLE);
+                            }
+                        }
+                    }).attachToRecyclerView(watchListBinding.watchlistRecyclerView);
+                });
+
+        compositeDisposable.add(disposable);
+    }
+
+    private void readData() {
+        SharedPreferences sharedPreferences = requireContext().getSharedPreferences("watchlist", Context.MODE_PRIVATE);
+        Gson gson = new Gson();
+        String json = sharedPreferences.getString("watchlist", String.valueOf(new ArrayList<String>()));
+        Type type = new TypeToken<ArrayList<String>>() {}.getType();
+        watchlist = gson.fromJson(json, type);
+    }
+
+    private void storeData(ArrayList<String> newList) {
+        SharedPreferences sharedPreferences = requireContext().getSharedPreferences("watchlist", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        Gson gson = new Gson();
+        String json = gson.toJson(newList);
+        editor.putString("watchlist", json);
+        editor.apply();
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        compositeDisposable.clear();
+    }
+}
