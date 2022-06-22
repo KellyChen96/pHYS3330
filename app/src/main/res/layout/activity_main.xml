@@ -33,4 +33,6 @@
             app:backgroundColor="@color/royal_blue_dark"
             app:iconMargin="8dp"
             app:iconSize="24dp"
-            a
+            app:indicatorRadius="8dp"
+            app:itemFontFamily="@font/nunito_medium"
+            app:layout_constraintBotto
