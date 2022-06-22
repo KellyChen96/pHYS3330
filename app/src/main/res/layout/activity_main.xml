@@ -35,4 +35,6 @@
             app:iconSize="24dp"
             app:indicatorRadius="8dp"
             app:itemFontFamily="@font/nunito_medium"
-            app:layout_constraintBotto
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStar
