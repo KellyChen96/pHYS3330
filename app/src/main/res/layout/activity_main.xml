@@ -37,4 +37,7 @@
             app:itemFontFamily="@font/nunito_medium"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStar
+            app:layout_constraintStart_toStartOf="parent"
+            app:menu="@menu/bottom_nav_menu"
+            app:textSize="14sp" />
+    </androidx.constraintlayout.widget.
