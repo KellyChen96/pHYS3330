@@ -22,4 +22,8 @@
             app:layout_constraintBottom_toTopOf="@+id/bottomBar"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopO
+            app:layout_constraintTop_toTopOf="parent"
+            app:navGraph="@navigation/nav_graph" />
+
+        <me.ibrahimsn.lib.SmoothBottomBar
+        
