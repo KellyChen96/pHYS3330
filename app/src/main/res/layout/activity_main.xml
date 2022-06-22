@@ -26,4 +26,8 @@
             app:navGraph="@navigation/nav_graph" />
 
         <me.ibrahimsn.lib.SmoothBottomBar
-        
+            android:id="@+id/bottomBar"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:elevation="12dp"
+      
