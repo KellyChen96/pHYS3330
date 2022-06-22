@@ -30,4 +30,7 @@
             android:layout_width="0dp"
             android:layout_height="56dp"
             android:elevation="12dp"
-      
+            app:backgroundColor="@color/royal_blue_dark"
+            app:iconMargin="8dp"
+            app:iconSize="24dp"
+            a
