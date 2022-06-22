@@ -40,4 +40,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:menu="@menu/bottom_nav_menu"
             app:textSize="14sp" />
-    </androidx.constraintlayout.widget.
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
