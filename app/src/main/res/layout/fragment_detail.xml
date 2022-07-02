@@ -11,4 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/dark_blue"
-        t
+        tools:context=".ui.Fragments.DetailFragment">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/de
