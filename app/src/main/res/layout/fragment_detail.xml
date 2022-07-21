@@ -43,4 +43,6 @@
                 android:layout_height="wrap_content"
                 android:background="@null"
                 android:padding="8dp"
-                andr
+                android:src="@drawable/ic_back_stack"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_
