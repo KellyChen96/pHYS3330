@@ -40,3 +40,7 @@
             <ImageButton
                 android:id="@+id/backStackButton"
                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:padding="8dp"
+                andr
