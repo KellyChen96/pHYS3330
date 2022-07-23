@@ -61,4 +61,7 @@
                 tools:text="BTC" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <androidx.constraintlayo
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/detailPrice"
+            android:layout_width="match_parent"
+            android:l
