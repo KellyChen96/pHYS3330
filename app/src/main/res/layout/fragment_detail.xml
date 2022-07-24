@@ -64,4 +64,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/detailPrice"
             android:layout_width="match_parent"
-            android:l
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:paddingTop="12dp"
+            android:paddi
