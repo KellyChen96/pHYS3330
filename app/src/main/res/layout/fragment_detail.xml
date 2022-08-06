@@ -84,4 +84,6 @@
                 tools:text="2.68%" />
 
             <TextView
-                android:id="@+id/deta
+                android:id="@+id/detailPriceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wra
