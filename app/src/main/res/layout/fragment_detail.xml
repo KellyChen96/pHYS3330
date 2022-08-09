@@ -103,4 +103,7 @@
                 app:layout_constraintTop_toTopOf="@+id/detailChangeTextView"
                 tools:srcCompat="@drawable/ic_caret_up" />
 
-  
+            <ImageView
+                android:id="@+id/detailImageView"
+                android:layout_width="64dp"
+               
