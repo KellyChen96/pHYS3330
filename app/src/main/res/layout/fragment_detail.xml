@@ -106,4 +106,6 @@
             <ImageView
                 android:id="@+id/detailImageView"
                 android:layout_width="64dp"
-               
+                android:layout_height="64dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_c
