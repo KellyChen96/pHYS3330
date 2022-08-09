@@ -92,4 +92,8 @@
                 android:textSize="26sp"
                 app:layout_constraintStart_toEndOf="@+id/detailImageView"
                 app:layout_constraintTop_toTopOf="parent"
-       
+                tools:text="$108.56" />
+
+            <ImageView
+                android:id="@+id/detailChangeImageView"
+                androi
