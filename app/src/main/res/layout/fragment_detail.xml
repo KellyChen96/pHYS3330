@@ -98,4 +98,6 @@
                 android:id="@+id/detailChangeImageView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:layout_constraintBott
+                app:layout_constraintBottom_toBottomOf="@+id/detailChangeTextView"
+                app:layout_constraintStart_toStartOf="@+id/detailPriceTextView"
+     
