@@ -114,4 +114,7 @@
                 tools:srcCompat="@tools:sample/avatars" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/detailChart"
+            android:layout_width="match_parent"
+     
