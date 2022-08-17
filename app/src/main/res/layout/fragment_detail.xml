@@ -125,4 +125,7 @@
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button"
                 android:layout_width="58dp"
-                android:layou
+                android:layout_height="36dp"
+                android:layout_marginTop="8dp"
+                android:background="@null"
+                android:te
