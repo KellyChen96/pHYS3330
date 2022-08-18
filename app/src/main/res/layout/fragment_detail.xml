@@ -131,4 +131,6 @@
                 android:text="@string/_1m"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
-                app
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+              
