@@ -136,4 +136,7 @@
                 app:layout_constraintStart_toEndOf="@+id/button1"
                 app:layout_constraintTop_toTopOf="parent" />
 
-          
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button1"
+                android:layout_width="58dp"
+      
