@@ -144,4 +144,6 @@
                 android:text="@string/_1w"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
-                app:layout_constraintB
+                app:layout_constraintBottom_toBottomOf="@+id/button"
+                app:layout_constraintEnd_toStartOf="@+id/button"
+                app:l
