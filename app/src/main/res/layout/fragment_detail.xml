@@ -142,4 +142,6 @@
                 android:layout_height="36dp"
                 android:background="@null"
                 android:text="@string/_1w"
-  
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:layout_constraintB
