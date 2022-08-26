@@ -159,4 +159,6 @@
                 android:textAllCaps="false"
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="@+id/button1"
-                app:layout_constrai
+                app:layout_constraintEnd_toStartOf="@+id/button1"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_con
