@@ -172,4 +172,6 @@
                 android:text="@string/_4h"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
-                app:layout_constraintBott
+                app:layout_constraintBottom_toBottomOf="@+id/button2"
+                app:layout_constraintEnd_toStartOf="@+id/button2"
+                app:layout_constrain
