@@ -227,4 +227,7 @@
             android:paddingStart="12dp"
             android:paddingTop="8dp"
             android:paddingEnd="12dp"
-            android:padd
+            android:paddingBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+       
