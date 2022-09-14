@@ -211,4 +211,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="246dp"
                 android:layout_marginTop="8dp"
-                app:la
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_c
