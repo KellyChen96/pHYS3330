@@ -204,4 +204,8 @@
                 app:layout_constraintEnd_toStartOf="@+id/button4"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@+
+                app:layout_constraintTop_toTopOf="@+id/button4" />
+
+            <WebView
+                android:id="@+id/detaillChartWebView"
+                android:layout_width=
