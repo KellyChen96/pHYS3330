@@ -234,4 +234,6 @@
             app:layout_constraintTop_toBottomOf="@id/detailChart">
 
 
-            <and
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/detailRecyclerView"
+                android:layout_width="0d
