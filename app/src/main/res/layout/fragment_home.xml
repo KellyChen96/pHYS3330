@@ -28,4 +28,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <com.smarteist.autoimageslider.SliderView
-                android:id="@+id/sli
+                android:id="@+id/sliderView"
+                android:layout_width="match_parent"
+                android:layout_height="182dp"
+                app:sli
