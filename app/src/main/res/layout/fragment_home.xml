@@ -47,4 +47,7 @@
 
         </androidx.cardview.widget.CardView>
 
-        <androidx.recycl
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/topCurrencyRecyclerView"
+            android:layout_width="match_parent"
+        
