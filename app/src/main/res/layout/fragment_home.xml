@@ -42,4 +42,9 @@
                 app:sliderIndicatorRadius="2dp"
                 app:sliderIndicatorSelectedColor="@color/purple"
                 app:sliderIndicatorUnselectedColor="@color/white"
-                app:sliderScrollTim
+                app:sliderScrollTimeInSec="1"
+                app:sliderStartAutoCycle="true" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recycl
