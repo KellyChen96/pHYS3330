@@ -72,4 +72,6 @@
                 android:id="@+id/constraintLayout3"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                app:layout_constraintBotto
+                app:layout_constraintBottom_toTopOf="@id/contentViewPager"
+                app:layout_constraintEnd_toEndOf="parent"
+              
