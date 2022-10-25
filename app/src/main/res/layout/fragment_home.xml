@@ -79,4 +79,6 @@
 
                 <View
                     android:id="@+id/topLoseIndicator"
-                    android:layout_w
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawab
