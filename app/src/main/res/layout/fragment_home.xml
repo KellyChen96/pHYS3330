@@ -81,4 +81,6 @@
                     android:id="@+id/topLoseIndicator"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawab
+                    android:background="@drawable/top_losers_bg"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottom
