@@ -95,4 +95,7 @@
                 android:layout_height="0dp"
                 app:layout_constraintBottom_toTopOf="@id/contentViewPager"
                 app:layout_constraintEnd_toStartOf="@+id/constraintLayout3"
-                
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            
