@@ -101,4 +101,6 @@
                 <View
                     android:id="@+id/topGainIndicator"
                     android:layout_width="match_parent"
-                    android:
+                    android:layout_height="match_parent"
+                    android:background="@drawable/top_gainers_bg"
+                    ap
