@@ -11,4 +11,7 @@
         android:id="@+id/marketFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        androi
+        android:background="@color/royal_blue_dark"
+        tools:context=".ui.Fragments.MarketFragment">
+
+        <androidx.constraintlayout.widget.Constrain
