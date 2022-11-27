@@ -18,4 +18,7 @@
             android:id="@+id/constraintLayout4"
             android:layout_width="0dp"
             android:layout_height="0dp"
-      
+            android:layout_marginTop="52dp"
+            android:background="@drawable/market_content_bg"
+            android:elevation="12dp"
+            app:l
