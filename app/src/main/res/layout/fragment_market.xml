@@ -21,4 +21,6 @@
             android:layout_marginTop="52dp"
             android:background="@drawable/market_content_bg"
             android:elevation="12dp"
-            app:l
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constrai
