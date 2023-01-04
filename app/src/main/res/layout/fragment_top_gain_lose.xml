@@ -19,4 +19,6 @@
             android:layout_height="0dp"
             android:layout_marginTop="8dp"
             android:orientation="vertical"
-            app:layoutManager="androidx
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app
