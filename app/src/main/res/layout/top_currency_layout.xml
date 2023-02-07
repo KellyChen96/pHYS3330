@@ -12,4 +12,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        app:car
+        app:cardBackgroundColor="@color/royal_blue_dark"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="8dp">
+
+        
