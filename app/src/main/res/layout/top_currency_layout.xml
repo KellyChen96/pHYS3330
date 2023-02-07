@@ -5,4 +5,8 @@
 
     <data>
 
-  
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/topCurrencyCardView"
+        android:layo
