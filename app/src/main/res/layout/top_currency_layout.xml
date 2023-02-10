@@ -22,4 +22,7 @@
             android:layout_height="match_parent"
             android:padding="12dp">
 
-            <ImageVie
+            <ImageView
+                android:id="@+id/topCurrencyImageView"
+                android:layout_width="38dp"
+                android:layout_height
