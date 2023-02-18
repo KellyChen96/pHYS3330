@@ -29,4 +29,7 @@
                 app:layout_constraintBottom_toBottomOf="@+id/topCurrencyNameTextView"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/topCurrencyChangeTextView"
-     
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/topCur
