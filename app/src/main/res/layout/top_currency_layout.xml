@@ -39,4 +39,9 @@
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 app:layout_constraintStart_toEndOf="@+id/topCurrencyImageView"
-                app:layout_constraintTop_toTopOf="pa
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="525.53" />
+
+            <TextView
+                android:id="@+id/topCurrencyNameTextView"
+    
