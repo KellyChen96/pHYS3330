@@ -38,3 +38,5 @@
                 android:layout_marginStart="8dp"
                 android:textColor="@color/white"
                 android:textSize="18sp"
+                app:layout_constraintStart_toEndOf="@+id/topCurrencyImageView"
+                app:layout_constraintTop_toTopOf="pa
