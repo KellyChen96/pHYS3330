@@ -44,4 +44,6 @@
 
             <TextView
                 android:id="@+id/topCurrencyNameTextView"
-    
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_ma
