@@ -46,4 +46,7 @@
                 android:id="@+id/topCurrencyNameTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_ma
+                android:layout_marginTop="4dp"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle
