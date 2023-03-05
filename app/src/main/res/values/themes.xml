@@ -3,4 +3,6 @@
     <style name="Theme.Crypto" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/dark_blue</item>
-        <item name="
+        <item name="colorPrimaryVariant">@color/dark_blue</item>
+        <item name="colorAccent">@color/white</item>
+        <it
