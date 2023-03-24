@@ -14,4 +14,7 @@
 @rem limitations under the License.
 @rem
 
-@if "%DEBUG%" == "" @
+@if "%DEBUG%" == "" @echo off
+@rem ##########################################################################
+@rem
+@rem  Gradle startup script for Wind
